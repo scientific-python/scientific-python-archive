@@ -1,0 +1,207 @@
+\usepackage{amsmath}
+\usepackage{amssymb}
+%\usepackage{amsthm}
+
+%\newtheorem{theorem}{Theorem}
+%\newtheorem{definition}[theorem]{Definition}
+%\newtheorem{cproblem}[theorem]{Computational Problem}
+%\newtheorem{ldpproblem}[theorem]{Low-degree Polynomial Optimization Problem}
+%\newtheorem{example}[theorem]{Example}
+%\newtheorem*{example*}{Example}
+%\newtheorem{remark}[theorem]{Remark}
+%\newtheorem{lemma}[theorem]{Lemma}
+%\newtheorem{corollary}[theorem]{Corollary}
+%\newtheorem{conjecture}[theorem]{Conjecture}
+%\newtheorem{proposition}[theorem]{Proposition}
+%\newtheorem{claim}[theorem]{Claim}
+%\newtheorem{observation}[theorem]{Observation}
+%\newtheorem{fact}[theorem]{Fact}
+%\newtheorem{facts}[theorem]{Facts}
+%\newtheorem{assumption}[theorem]{Assumption}
+%\newtheorem*{note}{Note}
+%\newtheorem{property}{Property}
+%\newtheorem{hope}{Hope}
+%\newtheorem{goal}{Goal}
+%\newtheorem{question}{Question}
+%\newtheorem{intuition}{Intuition}
+
+
+%\newenvironment{proof}{\noindent{\bf Proof:} \hspace*{1mm}}{
+%	\hspace*{\fill} $\Box$ }
+%\newenvironment{proof_of}[1]{\noindent {\bf Proof of #1:}
+%	\hspace*{1mm}}{\hspace*{\fill} $\Box$ }
+%\newenvironment{proof_idea}{\noindent {\bf Proof Idea:}
+%	\hspace*{1mm}}{\hspace*{\fill} $\Box$ }
+%\newenvironment{proof_intuition}{\noindent {\bf Proof Intuition:}
+%	\hspace*{1mm}}{\hspace*{\fill} $\Box$ }
+%\newenvironment{proof_claim}{\begin{quotation} \noindent Proof: \hspace*{1mm}}{
+%	\hspace*{\fill} $\diamond$ \end{quotation}}
+%
+
+
+%-----------------------------------------------------------------------------
+% Special-purpose color definitions (dark enough to print OK in black and white)
+\usepackage{color}
+
+% A few colors to replace the defaults for certain link types
+\definecolor{orange}{cmyk}{0,0.4,0.8,0.2}
+\definecolor{darkorange}{rgb}{.71,0.21,0.01}
+\definecolor{darkgreen}{rgb}{.12,.54,.11}
+\definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
+\definecolor{azure(colorwheel)}{rgb}{0.0, 0.5, 1.0}
+\definecolor{bleudefrance}{rgb}{0.19, 0.55, 0.91}
+\definecolor{brandeisblue}{rgb}{0.0, 0.44, 1.0}
+
+% Commands for annotating the docs with fixme and inter-author notes.  See
+% below for how to disable these.
+%
+% Define a \fixme command to mark visually things needing fixing in the draft,
+% as well as similar commands for each author to leave initialed special
+% comments in the document.
+% For final printing or to simply disable these bright warnings, copy
+% (there's a target macros_off' in the makefile that does this) the file
+% macros_off.tex to macros.tex
+\newcommand{\fixme}[1] { \textcolor{red} {
+{\fbox{ {\bf Fix:} \ensuremath{\blacktriangleright }} {\bf #1}
+\fbox{\ensuremath{\blacktriangleleft} } } } }
+
+% make bolded text also colored
+%\let\oldtextbf\textbf
+\newcommand\textcbf[1]{{\color{brandeisblue}\textbf{#1}}}
+
+%-----------------------------------------------------------------------------
+% The hyperref package gives us a pdf with properly built
+% internal navigation ('pdf bookmarks' for the table of contents,
+% internal cross-reference links, web links for URLs, etc.)
+\usepackage{hyperref}
+
+\hypersetup{pdftex,  % needed for pdflatex
+  breaklinks=true,  % so long urls are correctly broken across lines
+  colorlinks=true,
+  urlcolor=blue,
+  linkcolor=darkorange,
+  citecolor=darkgreen,
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%% general useful macros
+\usepackage{mathtools}
+\newcommand{\N}{{\mathbf N}}
+\newcommand{\Z}{{\mathbf Z}}
+\newcommand{\F}{{\mathbf F}}
+\newcommand{\Q}{{\mathbf Q}}
+\newcommand{\R}{{\mathbf R}}
+\newcommand{\Co}{{\mathbf C}}
+\newcommand{\Time}{\operatorname{time}}
+\newcommand{\poly}{{\mathrm{poly}}}
+\newcommand{\polylog}{{\mathrm{polylog}}}
+\newcommand{\loglog}{{\mathop{\mathrm{loglog}}}}
+\newcommand{\expect}{\mathop{\mathbf{E\mbox{}}}}
+\newcommand{\E}{\mathop{\mathbf{E\mbox{}}}}
+\newcommand{\variance}{\mathop{\mathbf{Var}}}
+\newcommand{\Var}{\mathop{\mathbf{Var}}}
+\newcommand{\Cov}{\operatorname{\mathbf{Cov}}}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+\newcommand{\comp}[1]{\overline{#1}}
+\newcommand{\argmax}[1]{\underset{#1}{\operatorname{argmax}}}
+\newcommand{\argmin}[1]{\underset{#1}{\operatorname{argmin}}}
+\newcommand{\sgn}{\operatorname{sgn}}
+\newcommand{\trace}{\operatorname{trace}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\diag}{\operatorname{diag}}
+\newcommand{\LR}{\Lambda}
+
+\DeclareRobustCommand{\iiemdash}{%
+  \makebox[2em][s]{---\hss---\hss---}%
+}
+%\DeclareMathOperator{\Ex}{\mathbf{E}}
+%\DeclareMathOperator*{\pEx}{\tilde{\mathbf{E}}}
+
+\newcommand{\dmax}{d_\text{max}}
+\newcommand{\dmin}{d_\text{min}}
+\newcommand{\davg}{d_\text{avg}}
+\newcommand{\overbar}[1]{\mkern 1.5mu\overline{\mkern-4mu#1\mkern-1.5mu}\mkern 1.5mu}
+\newcommand{\tmc}{S_\mathcal{T}}
+\newcommand{\omc}{S^*}
+%\newcommand{\w}{\operatorname{w}}
+\newcommand{\win}{w_\text{in}}
+\newcommand{\wout}{w_\text{out}}
+
+\newcommand{\bits}{\{0,1\}}
+\newcommand{\rademacher}{\{\text{--}1,1\}}
+\newcommand{\srademacher}{\{\text{--}1,0,1\}}
+\newcommand{\class}[1]{\mathbf{#1}}
+\newcommand{\coclass}[1]{\mathbf{co\mbox{-}#1}} % and their complements
+\newcommand{\BPP}{\class{BPP}}
+\newcommand{\NPO}{\class{NPO}}
+\newcommand{\APX}{\class{APX}}
+\newcommand{\PTAS}{\class{PTAS}}
+\newcommand{\NP}{\class{NP}}
+\newcommand{\PCP}{\class{PCP}}
+\newcommand{\coNP}{\coclass{NP}}
+\newcommand{\RP}{\class{RP}}
+\newcommand{\coRP}{\coclass{RP}}
+\newcommand{\ZPP}{\class{ZPP}}
+\newcommand{\RNC}{\class{RNC}}
+\newcommand{\RL}{\class{RL}}
+\renewcommand{\L}{\class{L}}
+\newcommand{\coRL}{\coclass{RL}}
+\newcommand{\IP}{\class{IP}}
+\newcommand{\AM}{\class{AM}}
+\newcommand{\MA}{\class{MA}}
+\renewcommand{\P}{\class{P}}
+\newcommand\prBPP{\class{prBPP}}
+\newcommand\prRP{\class{prRP}}
+\newcommand\prP{\class{prP}}
+\newcommand{\Ppoly}{\class{P/poly}}
+\newcommand{\DTIME}{\class{DTIME}}
+\newcommand{\ETIME}{\class{E}}
+\newcommand{\BPTIME}{\class{BPTIME}}
+\newcommand{\EXP}{\class{EXP}}
+\newcommand{\SUBEXP}{\class{SUBEXP}}
+\newcommand{\qP}{\class{\tilde{P}}}
+\newcommand{\PH}{\class{PH}}
+\newcommand{\NC}{\class{NC}}
+\newcommand{\PSPACE}{\class{PSPACE}}
+\newcommand{\quasiP}{\class{\tilde{P}}}
+\newcommand{\BPAC}{\class{BPAC_0}}
+\newcommand{\qAC}{\class{\widetilde{AC}_0}}
+
+\newcommand{\PRIMES}{\mathsf{PRIMES}}
+\newcommand{\GEN}{\mathsf{GEN}}
+\newcommand{\CSP}{\mathsf{CSP}}
+\newcommand{\COL}{\mathsf{COL}}
+\newcommand{\MAX}{\mathsf{MAX}}
+\newcommand{\MAXCUT}{\mathsf{MAX\;CUT}}
+\newcommand{\SAT}{\mathsf{SAT}}
+\newcommand{\NAE}{\mathsf{NAE}}
+\newcommand{\NAESAT}[1]{\mathsf{NAE\;#1SAT}}
+\newcommand{\CNF}{\mathsf{CNF}}
+\newcommand{\UNSAT}{\mathsf{UNSAT}}
+\newcommand{\GAPSAT}{\mathsf{GAP\;3SAT}}
+\newcommand{\NULL}{\mathsf{NULL}}
+
+\newcommand{\find}{{\operatorname{find}}}
+\newcommand{\dist}{{\operatorname{dist}}}
+\newcommand{\opt}{{\operatorname{opt}}}
+\newcommand{\OPT}{{\operatorname{OPT}}}
+\newcommand{\prep}{{\operatorname{prep}}}
+\newcommand{\cloud}{{\operatorname{cloud}}}
+\newcommand{\negl}{{\mathrm{neg}}}
+\newcommand{\Diam}{\mathrm{Diam}}
+\newcommand{\Cut}{\mathrm{Cut}}
+\newcommand{\vol}{\operatorname{vol}}
+\newcommand{\pf}{\mathit{pf}}
+\newcommand{\Col}{\mathrm{Col}}
+\newcommand{\Supp}{\mathrm{supp}}
+\newcommand{\supp}{\operatorname{supp}}
+\newcommand{\iid}{\stackrel{\mathrm{iid}}{\sim}}
+\newcommand{\eqdef}{\mathbin{\stackrel{\rm def}{=}}}
+
+\newcommand{\defeq}{\stackrel{\text{def}}{=}}
+%\newcommand{\eqdef}{\overset{\mathrm{def}}{=\joinrel=}}
+
+
+\newcommand\SetSymbol[1][]{\nonscript\:#1\vert\allowbreak\nonscript\:\mathopen{}}
+\providecommand\given{} % to make it exist
+\DeclarePairedDelimiterX\Set[1]\{\}{\renewcommand\given{\SetSymbol[\delimsize]}#1}
