@@ -28,7 +28,7 @@ The [Scientific Python blog](http://blog.scientific-python.org/) is a place wher
 
 ### Social Media
 
-Community outreach and engagement are also part of growing our community. Nowdays Facebook, Twitter, Instagram and TikTok are a big part of people's life's and as time passes by communications change and people learn and collaborate differently. In order to stay connected, we will use social media to share our content and interact directly with users and developers. This will help us diversify our community and stay in touch with more people that are interested in contributing. 
+Community outreach and engagement are also part of growing our community. Nowadays, Facebook, Twitter, Instagram and TikTok are a big part of people's lives and as time passes by, communications change and people learn and collaborate differently. In order to stay connected, we will use social media to share our content and interact directly with users and developers. This will help us diversify our community and stay in touch with more people that are interested in contributing.
 
 ### Come join us!
 
