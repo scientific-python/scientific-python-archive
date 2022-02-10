@@ -11,20 +11,22 @@ https://www.scipy2022.scipy.org/talk-poster-presentations
 
 ## Short Summary
 
-The future of Scientific Python is here. Behind the scene, major scientific projects have been contributing together to craft a joint community. Learn its goal, what are the prospects and most importantly: how to be part of the advanture.
+The future of Scientific Python is here. Behind the scenes, core scientific projects have started coordinating to better unify the community. Learn more about the goals of this unification effort, opportunities that exist, and, most importantly, how to join the adventure.
 
 
 ## Abstract
 
-The Scientific Python organisation's vision is to help paves the way for a greater and stronger scientific Python community. There are two axis the organization is focusing on to help make it happen: _(i)_ create a community around all scientific projects; _(ii)_ support maintainers on technical aspects. This talk will focus on the second aspect and present current and future initiatives.
+The Scientific Python project's vision is to help pave the way towards a unified, expanded scientific Python community. It focuses its efforts along two primary axes: _(i)_ to create a joint community around all scientific projects and (ii)_to support maintainers by building cross-cutting technical infrastructure and tools. This talk will focus on the second aspect, presenting current and future initiatives.
 
-The organization has already designed some reference guidelines for projects to adopt: called SPEC or Scientific Python Ecosystem Coordination. SPECs are similar to projects specific guidelines like PIP, NEP, SLEP, to name a few. With the distinction that SPECs are general and target all projects from the scientific community.
+The project has already launched a process whereby projects can, voluntarily, adopt reference guidelines; these are known as SPECs or Scientific Python Ecosystem Coordination documents. SPECs are similar to projects specific guidelines like PEPs, NEPs, SLEPs, and SKIPs, to name a few. The distinction being that SPECs have a broader scope, targeted at all (or most) projects from the scientific Python ecosystem.
 
-We also provide a set of tools to help maintainers. This includes a theme for the organizational website of the projects, a self-hosted solution to have web metrics and community statistics, a forum and a technical blog.
+The project also provides and maintains tools to help maintainers. This includes a theme for the project websites (currently used on, e.g., numpy.org and scipy.org), a self-hosted privacy-friendly web analytics platform, a community discussions forum, a technical blog, and project development statistics.
 
-All these tools and SPECs will be presented and will highlight the potential of this organization.
+<!-- maybe note something about releasing numpydoc etc., Jarrod? -->
 
-The talk will close on a general call of action. The Scientific Python organisation is already being supported of 8 core projects: IPython, Matplotlib, NetworkX, NumPy, pandas, scikit-image, scikit-learn and SciPy. The organization has spent the last months working on the infrastructure and is now ready to be rolled out and actively help the community.
+We present all these tools, discuss various upcoming SPECs, and highlight the project's future potential.
+
+The talk closes with a general call to action. The Scientific Python project is already supported by eight core projects: IPython, Matplotlib, NetworkX, NumPy, pandas, scikit-image, scikit-learn, and SciPy. The organization has spent the last several months working on the infrastructure, and is now ready to engage more widely to help grow and support the community.
 
 
 ## Other information
