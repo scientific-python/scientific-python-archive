@@ -16,7 +16,7 @@ The future of Scientific Python is here. Behind the scenes, core scientific proj
 
 ## Abstract
 
-The Scientific Python project's vision is to help pave the way towards a unified, expanded scientific Python community. It focuses its efforts along two primary axes: _(i)_ to create a joint community around all scientific projects and (ii)_to support maintainers by building cross-cutting technical infrastructure and tools. This talk will focus on the second aspect, presenting current and future initiatives.
+The Scientific Python project's vision is to help pave the way towards a unified, expanded scientific Python community. It focuses its efforts along two primary axes: _(i)_ to create a joint community around all scientific projects and _(ii)_to support maintainers by building cross-cutting technical infrastructure and tools. This talk will focus on the second aspect, presenting current and future initiatives.
 
 The project has already launched a process whereby projects can, voluntarily, adopt reference guidelines; these are known as SPECs or Scientific Python Ecosystem Coordination documents. SPECs are similar to projects specific guidelines like PEPs, NEPs, SLEPs, and SKIPs, to name a few. The distinction being that SPECs have a broader scope, targeted at all (or most) projects from the scientific Python ecosystem.
 
