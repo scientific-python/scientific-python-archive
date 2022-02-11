@@ -21,7 +21,7 @@ Learn more about the goals of this unification effort, opportunities that exist,
 
 The Scientific Python project's vision is to help pave the way towards a unified, expanded scientific Python community.
 It focuses its efforts along two primary axes: _(i)_ to create a joint community around all scientific projects
-and _(ii)_to support maintainers by building cross-cutting technical infrastructure and tools.
+and _(ii)_ to support maintainers by building cross-cutting technical infrastructure and tools.
 This talk will focus on the second aspect, presenting current and future initiatives.
 
 The project has already launched a process whereby projects can, voluntarily, adopt reference guidelines;
