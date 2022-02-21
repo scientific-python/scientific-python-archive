@@ -48,6 +48,14 @@ Keywords: Scientific Python, Community
 Type:  Talk
 corresponding author
 
+### Author 1
+
+First name†: Pamphile T.
+Last name: Roy
+Email: roy.pamphile@gmail.com 	
+Country/region: Austria
+Organization: Quansight
+
 ### Author 2
 
 First name†: Melissa
