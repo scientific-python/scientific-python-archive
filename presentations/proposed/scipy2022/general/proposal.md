@@ -58,6 +58,14 @@ Keywords: Scientific Python, Community
 Type:  Talk
 corresponding author
 
+### Author 1
+
+First name†: Juanita
+Last name: Gomez
+Email: juanitagomezr2112@gmail.com
+Country/region: USA
+Organization: UC Santa Cruz
+
 ### Author 2
 
 First name†: Melissa
@@ -68,11 +76,12 @@ Organization: Quansight
 
 ### Author 3
 
-First name†: Jarrod
+First name†: K. Jarrod
 Last name: Millman
 Email: millman@berkeley.edu
 Country/region: USA
 Organization: UC Berkeley
+Web page: https://jarrodmillman.com
 
 ### Author 4
 

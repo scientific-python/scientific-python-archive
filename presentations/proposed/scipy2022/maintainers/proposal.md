@@ -44,7 +44,7 @@ The organization has spent the last several months working on the infrastructure
 
 Track: Maintainers
 Author: Pamphile T. Roy
-Keywords: Scientific Python, Community
+Keywords: Scientific Python, Ecosystem
 Type:  Talk
 corresponding author
 
@@ -66,11 +66,12 @@ Organization: Quansight
 
 ### Author 3
 
-First name†: Jarrod
+First name†: K. Jarrod
 Last name: Millman
 Email: millman@berkeley.edu
 Country/region: USA
 Organization: UC Berkeley
+Web page: https://jarrodmillman.com
 
 ### Author 4
 
