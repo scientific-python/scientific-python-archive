@@ -56,3 +56,37 @@ Track: General
 Author: Juanita Gomez
 Keywords: Scientific Python, Community
 Type:  Talk
+corresponding author
+
+### Author 2
+
+First name†: Melissa
+Last name: Mendonça
+Email: melissawm@gmail.com 
+Country/region: Brazil
+Organization: Quansight
+
+### Author 3
+
+First name†: Jarrod
+Last name: Millman
+Email: millman@berkeley.edu
+Country/region: USA
+Organization: UC Berkeley
+
+### Author 4
+
+First name†: Inessa
+Last name: Pawson
+Email: inessa@albuscode.org
+Country/region: USA
+Organization: 
+
+### Author 5
+
+First name†: Stéfan
+Last name: van der Walt
+Email: stefanv@berkeley.edu
+Country/region: USA
+Organization: UC Berkeley
+
