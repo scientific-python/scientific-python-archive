@@ -11,9 +11,11 @@ Scientific Python---From GitHub to TikTok
 
 ## Short Summary
 
-The Scientific Python project aims to better coordinate the ecosystem and prepare Scientific Python for the next decade.
-We are a group of volunteers behind several projects from the ecosystem committed to expanding our community
-by generating a welcoming and friendly environment where projects collaborate, build, and improve together.
+The Scientific Python project aims to better coordinate the ecosystem and grow the community.
+This talk focuses on our efforts to expand our community by generating a welcoming and friendly
+environment where people collaborate, build, and improve together.
+Come hear about our recent community building and outreach efforts.
+Learn how you can get involved!
 
 ## Abstract
 

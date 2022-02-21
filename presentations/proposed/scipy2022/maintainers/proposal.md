@@ -12,9 +12,11 @@ Scientific Python---By Maintainers and for Maintainers
 
 ## Short Summary
 
-The future of Scientific Python is here.
-Behind the scenes, core scientific projects have started coordinating to better unify the community.
-Learn more about the goals of this unification effort, opportunities that exist, and, most importantly, how to join the adventure.
+The Scientific Python project aims to better coordinate the ecosystem and grow the community.
+This talk focuses on our efforts to better coordinate the ecosystem.
+Come hear how behind the scenes, core scientific projects have started coordinating to better unify the community.
+Learn more about the goals of this unification effort, opportunities that
+exist, and, most importantly, how to join the adventure.
 
 
 ## Abstract
