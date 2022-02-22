@@ -35,7 +35,7 @@ how they contribute, and demos, which give an overview of the problem solving wo
 
 ### Blog 
 
-The [Scientific Python blog](http://blog.scientific-python.org/) is a place where contributors can share their thoughts and ideas in order to learn more about the ecosystem together.
+The Scientific Python blog is a place where contributors can share their thoughts and ideas in order to learn more about the ecosystem together.
 We strongly believe that healthy communities are built when everyone’s voice is heard and different perspectives are valued.
 
 ### Social Media
@@ -48,7 +48,7 @@ This will help us stay in touch with more people that are interested in contribu
 ### Come join us!
 
 This talk shares our view of the future of the Scientific Python community and is a call to action for others to join us in this journey.
-We are looking for Scientific Python projects with varying skills, backgrounds, and perspectives to build an inclusive, diverse, and friendly ecosystem.
+We are looking for people with varying skills, backgrounds, and perspectives to build an inclusive, diverse, and friendly ecosystem.
 
 ## Other information
 
