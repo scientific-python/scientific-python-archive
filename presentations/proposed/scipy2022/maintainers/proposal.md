@@ -12,9 +12,9 @@ Scientific Python---By Maintainers and for Maintainers
 
 ## Short Summary
 
-The future of Scientific Python is here.
-Behind the scenes, core scientific projects have started coordinating to better unify the community.
-Learn more about the goals of this unification effort, opportunities that exist, and, most importantly, how to join the adventure.
+The Scientific Python project aims to better coordinate the ecosystem and grow the community.
+This talk focuses on our efforts to better coordinate project development, and to improve shared infrastructure.
+Come hear about our goals, our recent technical work, and learn how you can get involved!
 
 
 ## Abstract
@@ -44,5 +44,39 @@ The organization has spent the last several months working on the infrastructure
 
 Track: Maintainers
 Author: Pamphile T. Roy
-Keywords: Scientific Python, Community
+Keywords: Scientific Python, Ecosystem
 Type:  Talk
+corresponding author
+
+### Author 1
+
+First name†: Pamphile T.
+Last name: Roy
+Email: roy.pamphile@gmail.com 	
+Country/region: Austria
+Organization: Quansight
+
+### Author 2
+
+First name†: Melissa
+Last name: Mendonça
+Email: melissawm@gmail.com 	
+Country/region: Brazil
+Organization: Quansight
+
+### Author 3
+
+First name†: K. Jarrod
+Last name: Millman
+Email: millman@berkeley.edu
+Country/region: USA
+Organization: UC Berkeley
+Web page: https://jarrodmillman.com
+
+### Author 4
+
+First name†: Stéfan
+Last name: van der Walt
+Email: stefanv@berkeley.edu
+Country/region: USA
+Organization: UC Berkeley

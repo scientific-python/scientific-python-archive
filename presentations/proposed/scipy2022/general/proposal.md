@@ -11,9 +11,11 @@ Scientific Python---From GitHub to TikTok
 
 ## Short Summary
 
-The Scientific Python project aims to better coordinate the ecosystem and prepare Scientific Python for the next decade.
-We are a group of volunteers behind several projects from the ecosystem committed to expanding our community
-by generating a welcoming and friendly environment where projects collaborate, build, and improve together.
+The Scientific Python project aims to better coordinate the ecosystem and grow the community.
+This talk focuses on our efforts to expand our community by generating a welcoming and friendly
+environment where people collaborate, build, and improve together.
+Come hear about our recent community building and outreach efforts, and
+learn how you can get involved!
 
 ## Abstract
 
@@ -54,3 +56,46 @@ Track: General
 Author: Juanita Gomez
 Keywords: Scientific Python, Community
 Type:  Talk
+corresponding author
+
+### Author 1
+
+First name†: Juanita
+Last name: Gomez
+Email: juanitagomezr2112@gmail.com
+Country/region: Colombia
+Organization: UC Santa Cruz
+
+### Author 2
+
+First name†: Melissa
+Last name: Mendonça
+Email: melissawm@gmail.com 
+Country/region: Brazil
+Organization: Quansight
+
+### Author 3
+
+First name†: K. Jarrod
+Last name: Millman
+Email: millman@berkeley.edu
+Country/region: USA
+Organization: UC Berkeley
+Web page: https://jarrodmillman.com
+
+### Author 4
+
+First name†: Inessa
+Last name: Pawson
+Email: inessa@albuscode.org
+Country/region: USA
+Organization: 
+
+### Author 5
+
+First name†: Stéfan
+Last name: van der Walt
+Email: stefanv@berkeley.edu
+Country/region: USA
+Organization: UC Berkeley
+
