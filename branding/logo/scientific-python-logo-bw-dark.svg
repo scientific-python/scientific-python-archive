@@ -49,7 +49,7 @@
    inkscape:window-x="0"
    inkscape:window-y="0"
    inkscape:window-maximized="1"
-   inkscape:current-layer="layer6"
+   inkscape:current-layer="layer2"
    fit-margin-top="0"
    fit-margin-left="0"
    fit-margin-right="0"
@@ -69,16 +69,6 @@
 </style>
 
 <g
-   inkscape:groupmode="layer"
-   id="layer6"
-   inkscape:label="background"
-   style="display:none"><rect
-     style="display:inline;fill:#000000;fill-opacity:0.994544;stroke-width:0"
-     id="rect876"
-     width="684.30859"
-     height="647.45221"
-     x="-83.17247"
-     y="-42.955273" /></g><g
    inkscape:groupmode="layer"
    id="layer2"
    inkscape:label="sky"
