@@ -31,13 +31,13 @@
 		
 		
 	</defs><sodipodi:namedview
-   pagecolor="#ffffff"
+   pagecolor="#000000"
    bordercolor="#666666"
    borderopacity="1"
    objecttolerance="10"
    gridtolerance="10"
    guidetolerance="10"
-   inkscape:pageopacity="0"
+   inkscape:pageopacity="1"
    inkscape:pageshadow="2"
    inkscape:window-width="2560"
    inkscape:window-height="1440"
@@ -55,7 +55,7 @@
    fit-margin-right="0"
    fit-margin-bottom="0"
    inkscape:document-rotation="0"
-   inkscape:pagecheckerboard="0" />
+   inkscape:pagecheckerboard="false" />
 <style
    type="text/css"
    id="style2">
