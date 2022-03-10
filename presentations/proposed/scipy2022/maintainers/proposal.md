@@ -7,7 +7,7 @@ https://www.scipy2022.scipy.org/talk-poster-presentations
 
 ## Title
 
-Scientific Python---By Maintainers and for Maintainers
+Scientific Python---By Maintainers, for Maintainers
 
 
 ## Short Summary
