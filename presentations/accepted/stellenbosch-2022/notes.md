@@ -1,14 +1,68 @@
 # Scientific Python: Past, Future, Present
 
-- In 2015, gravitational waves were detected by LIGO for the first time.
+- In 2016, gravitational waves were detected by LIGO, the Laser Interferometer Gravitational-Wave Observatory, for the first time.
+
+https://en.wikipedia.org/wiki/First_observation_of_gravitational_waves
+https://www.ligo.caltech.edu/page/detection-companion-papers
+https://github.com/gwastro/pycbc
+https://github.com/gwpy/gwpy/blob/main/setup.cfg#L41
+
 - In 2019, the Event Horizon Telescope Collaboration produced the first ever image of a black hole through interferometry ((Very Long Baseline Interferometry, VLBI).
+
 - In 2021, Ingenuity, the Mars helicopter, made the first powered controlled extraterrestrial flight by an aircraft.
+
+https://github.com/readme/featured/nasa-ingenuity-helicopter
+"...the Python ecosystem played a key role in everything from ground control to flight modeling to data processing."
 
 What do they have in common? Each has pipelines that utilize the Scientific Python ecosystem.
 
-Why is that special?
+In this talk, I'd like to discuss why this is so special, how we got here, and what lies on the road ahead.
 
-Let's step back and consider what the Scientific Python ecosystem is:
+## But first, a personal retrospective
+
+- In the early 2000s, I was an engineering student, working on my master's thesis
+- Most computational work back then was done using MATLAB
+- We had a free license—at least for the folks who ran Windows machines
+- I was not one of them
+- The options were to (a) figure out how to install ML on Linux and get the license server working or
+  (b) figure out how to do my work with entirely free software that ran easily on Linux
+- Already then, I had a strong feeling/philosophy that scientific software should be open source
+- And, since master's students have endless amounts of time, I chose to use Octave—a MATLAB clone
+- Of course, Octave wasn't quite ready, and so that became a big part of my master's project
+- I enjoyed working on that project, I certainly learned a lot
+- But Octave had a problem: it was always chasing MATLAB; and while it had innovative features, such as
+  its fast and elegant C++ interface, it could not truly innovate
+- Meanwhile, my master's advisor decides that I needed more computational guidance.
+- He introduces me to Ben.  Thus, my thesis meetings turn into mountain biking discussions.
+- But then around 2004 Ben takes a sabbatical in Colorado, where he meets a young postdoc by the name of Fernando Perez.
+  Fernando, btw, is the original author of IPython, which you now know as Jupyter.
+- Goodness knows what that exchange looked like, but two things we know:
+  - Ben returns an evangelist for the Python language, and
+  - Fernando arrives in Stellenbosch in 2005 to give a workshop on scientific tools in Python.
+- The rest, as they say, is history:
+  - Ben and his students made a big leap, and switched all their courses and research over to Python.
+  - I stopped working on Octave.
+  - Instead, myself, Albert Strasheim, and other students started working on improving NumPy
+    (which, at the time, was functional but in great need of support).
+  - Worth emphasising is that my advisor *let* me work on all this.
+  - What we found was that the Scientific Python community was incredibly friendly and open.
+    Genuinely nice people, who cared a great deal about the tools they were building.
+  - Developing these tools was exciting: no longer trapped in the confines of emulating an existing platform,
+    this opened the doors to Python's full expressivity.
+  - Python being a general purpose language meant that, now, scientific tools could be smoothly integrated
+    into a much wider ecosystem of pre-existing software.
+
+So, that's how Stellenbosch University got roped into all of this very early on.
+
+In some ways then, this talk is about showing the potential of an open philosophy and approach.
+We will get into some of the hairier details, but even if we disagree on some of the smaller details along the way,
+I hope that the big picture remains compelling.
+
+OK, so let's get back to our original question.
+
+## Why is all this so special?
+
+Let's consider what the Scientific Python ecosystem is:
 
 - Software developed by a small handful of students and junior researchers
 - Often with little to no financial support
@@ -20,21 +74,37 @@ Contrast this with the commercial systems that historically drove much of scienc
 - Developed by hundreds, or even thousands, of dedicated programmers
 - Developed behind closed doors
 
-Immediately, several questions arise:
+So, that in itself is remarkable: that you consider such an endeavor,
+take part in it, and then get away with it.
 
-- Why is it important to pursue the community path? Why not simply rely on the commercial offerings.
-- Are scientists equipped to develop their own software platforms?
-- How can volunteers even contemplate competing with large scale commercial efforts.
-
-Are these efforts CRAZY or doomed to failure even before they started?
+And is that the case?  Or are these efforts CRAZY and doomed to failure even before they started?
 
 [show image headers of Nature papers]
 
-I think we have an answer to that ready: no, they are not doomed, we have at least one proof of existence: the Scientific Python ecosystem.
+No, in fact it looks like there is not only proof of existence here, but also proof of success.
+And, my take on that is that it is because of an underlying philosophy.
+- A philosophy of *why* such software should be used and
+- A philsophy around *how* such software should be developed.
+
+http://nipy.org/nipy/mission.html#nipy-mission
+
+> We believe that neuroscience ideas and analysis ideas develop
+> together.
+> Good ideas come from understanding; understanding comes
+> from clarity, and clarity must come from well-designed teaching
+> materials and well-designed software.
+> The software must be designed
+> as a natural extension of the underlying ideas.
+
+Now, let's consider:
+
+- Why is it important to pursue the community path? Why not simply rely on the commercial offerings.
+- Are scientists truly equipped to develop their own software platforms?
+- How can volunteers be so audacious to think they can compete with large scale commercial efforts.
 
 ## Why is it important to pursue the community path?
 
-Let's start by considering the incentives of the community, versus a company building software for that community.
+Consider the incentives of the community, versus a company building software for that community.
 
 - The community needs to do excellent science.
 - For that, they need computational software.
@@ -73,13 +143,17 @@ But even a superficial evaluation identifies immediate flaws in this plan—ways
   It is in the vendor's interest to satisfy most users, so they can sell more copies, but they may not satisfy *your* requirements.
 
 - Scientists cannot verify what is happening under the engin cover.
-  Again, it is in the vendor's interest to give accurate results, otherwise software won't sell.
-  But, you cannot verify your entire software stack: at least part of it is a "black box".
-  And science absolutely needs transparency: you cannot trust results, state them with full confidence, unless you know how they are produced.
+  In principle, science needs transparency: to trust results, to state them with full confidence, requires knowing how they were produced.
+  Therefore, it is odd to carefully craft your code, but to use as a foundation a "black box".
 
   Here, you can argue that, in practice, commercial scientific software is often very reliable.
-  And that may be true, from your experience with a certain software package.
-  But as a postdoc in neuroscience, I have seen first hand closed analysis software behaving badly, and no way for the operator to inspect what went wrong.
+  After all, it is in the vendor's interest to give accurate results, otherwise software won't sell.
+  So, for me this perhaps debatable as a pragmatic concern, but certainly not as a principle.
+
+  As a postdoc in neuroscience, I saw first hand closed analysis software behaving badly, and no way for the operator to inspect what went wrong.
+
+  > Relate experience of sitting next to another postdoc doing an analysis and seeing NaNs stream by.
+
   *Any* software can behave badly, so it is imperative that you have the option to investigate what is wrong and to fix it.
 
   > https://en.wikipedia.org/wiki/Therac-25
@@ -91,15 +165,18 @@ But even a superficial evaluation identifies immediate flaws in this plan—ways
   > A second fault allowed the electron beam to activate during field-light mode, during which no beam scanner was active or target was in place.
   > Previous models had hardware interlocks to prevent such faults, but the Therac-25 had removed them, depending instead on software checks for safety.
 
-  Again, as all good programmers will tell you: programmers make
-  mistakes, and *any* software can behave badly.
+  Trust, but verify.  Or don't trust but verify.  But always verify.
+
+  As all good programmers will tell you: programmers make
+  mistakes, and software is quite good at being bad.
   It is imperative that you have the option to investigate what is wrong and to fix it.
 
-This point also leads us to our next question:
+But who, do you ask, is going to do all of that. The scientist, of course.  Which leads us to our next question:
 
 ## Are scientists equipped to develop their own software platforms?
 
-- Scientists need to have a deep understanding of their computational codes.
+- As we discussed earlier, with the NiPy example, scientists need to have a deep understanding of their computational codes.
+  That's how computational ideas crystallize. That's how we get answers that are more right than wrong.
 - Relying on commercial software guarantees that you cannot know what the building blocks look like that you are using.
 - Open source software does not fully address that concern (you can still simply build blocks), but it at least gives you the option to look.
 - More importantly: when researchers become involved in the maintenance of their computational stacks, they get into the habit of skeptically checking results, of fixing software problems, and train themselves to understand the building blocks better.
@@ -124,17 +201,25 @@ Some further benefits come when they don't develop in isolation, but decide to s
   > During my PhD, I wrote the beginnings of what now is scikit-image, and image processing library.
   > I was reading and breathing image processing at the time, so it was a good time to write code.
   > Even so, once I released the software and the community started looking at it, they fixed innumerable bugs.
-  > Wider use of code leads to better generality and fewer bugs.
+  > You might say: "Yes, but he's a terrible programmer." Perhaps ;)
+  > But I'd say that all programmers are fallable, and that
+  > wider use of code leads to better generality and fewer bugs.
 
 For scientists who are *not* equipped to work on their own software have two options:
 (a) let them blindly use other people's building blocks, or
 (b) train them so that they, too, can contribute to and understand the software ecosystem.
 
-## Can volunteers compete with large scale commercial efforts?
+We've said that following the community path is important because it aligns incentives;
+we've said that scientists need to own their code.
+
+## But can volunteers hope to compete with large scale commercial efforts?
+
+<!-- Review from this slide -->
 
 In short: yes.
+The longer version: you may have to be strategic about it in an environment where you don't control the players.
 
-One does not need to build an entire ecosystem, all at once, in order to start using open platforms for science.
+Fortunately, one does not need to build an entire ecosystem, all at once, in order to start using open platforms for science.
 
 1. Certain code paths are more commonly used than others; need to make sure that the commonly used components are well implemented,
    and that users can extend those paths as needed.
@@ -148,7 +233,7 @@ Like with a bridge, you build the trusses that provide support.
 2. Open platforms are good at ingesting and exporting data; as long as you can wrangle data from your existing
    software, parts of your pipeline can be replaced piecemeal.
 
-## What are advantages of community development over commercial methods?
+## What are advantages of community development?
 
 - You can influence the direction of development so the tools better suit your needs.
 - You can share your code freely and others can run it.
@@ -189,9 +274,10 @@ To understand this, one must understand the development workflow.
 ## What are the weak points of community developed research software
 
 - Developer resources are limited
-  - Volunteer time varies
+  - Sadly, I am one of a very small handful of people in the world who is paid
+    to work full-time on Open Source scientific software.
+  - Most contributors are volunteers, and volunteer time varies
     - Not that easy for everyone to contribute (parents, breadwinners, etc.)
-  - Not many full-time devs
   - Bottleneck mostly at "Review" step above
 
 - Sustainable: funding is hard to come by
@@ -203,7 +289,7 @@ To understand this, one must understand the development workflow.
 
 - Informally coordinated
   - Commercial projects typically have multiple people whose job it is only to think about roadmaps, features, talk to users, coordinate between different developer teams, etc.
-  - Projects in the ecosystem are loosely coordinated, but each is run by itself.
+  - Projects in the ecosystem are loosely coordinated, but each one is run by itself.
     Projects do copy one another over time, but process is somewhat haphazard.
 
 ## What are we (scientific-python.org) trying to do to address these problems
@@ -274,3 +360,9 @@ Follow our YouTube channel for weekly updates: ...
 Our website: https://scientific-python.org
 
 Check out our blog (if active by then)?
+
+## Credits
+
+Ben Herbst
+Stellenbosch University, afforded me the chance to work on this software as a PhD student and later lecturer
+All of you who will help us to change the computational landscape
