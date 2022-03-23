@@ -34,8 +34,7 @@ The Scientific Python project's vision is to help pave the way towards a
 unified, expanded scientific Python community. It focuses its efforts along two
 primary axes: (i) to create a joint community around all scientific projects
 and (ii) to support maintainers by building cross-cutting technical
-infrastructure and tools. This talk will focus on the second aspect, presenting
-current and future initiatives.
+infrastructure and tools.
 
 The project has already launched a process whereby projects can, voluntarily,
 adopt reference guidelines; these are known as SPECs or Scientific Python
