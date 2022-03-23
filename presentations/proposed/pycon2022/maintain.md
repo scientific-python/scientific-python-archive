@@ -10,18 +10,48 @@ Scientific Python: Past, Future, and Present
 
 ## Topic summary
 
-## Key takeaways (why/how it benefits the Maintainers Summit audience)
-
-## Outline of your talk
-
-## Abstract (max 300 words in length)
-
 The Scientific Python ecosystem is a loose federation of libraries written by
 volunteers for use by themselves and the community. It is now the de facto
 platform for scientific research and data science. In this talk I discuss how a
 small, unfunded, community effort managed to succeed against the odds; the
 challenges it faces; what can be done (by us, by you!) to make it better; and
 what lies on the road ahead.
+
+## Key takeaways (why/how it benefits the Maintainers Summit audience)
+
+Learn how the Scientific Python project is working to better coordinate this loose federation of libraries
+and grow the community of contributors.
+
+## Outline of your talk
+
+- brief history of how the scientific Python ecosystem came to be
+- describe new effort to better coordinate the ecosystem and grow the community
+- explain what we are doing and what comes next
+
+## Abstract (max 300 words in length)
+
+The Scientific Python project's vision is to help pave the way towards a
+unified, expanded scientific Python community. It focuses its efforts along two
+primary axes: (i) to create a joint community around all scientific projects
+and (ii) to support maintainers by building cross-cutting technical
+infrastructure and tools. This talk will focus on the second aspect, presenting
+current and future initiatives.
+
+The project has already launched a process whereby projects can, voluntarily,
+adopt reference guidelines; these are known as SPECs or Scientific Python
+Ecosystem Coordination documents. SPECs are similar to projects specific
+guidelines like PEPs, NEPs, SLEPs, and SKIPs, to name a few. The distinction
+being that SPECs have a broader scope, targeted at all (or most) projects from
+the scientific Python ecosystem.
+
+The project also provides and maintains tools to help maintainers. This
+includes a theme for the project websites (currently used on, e.g., numpy.org
+and scipy.org), a self-hosted privacy-friendly web analytics platform, a
+community discussions forum, a technical blog, and project development
+statistics.
+
+We present all these tools, discuss various upcoming SPECs, and highlight the
+project's future potential.
 
 ## Full name of speaker
 
