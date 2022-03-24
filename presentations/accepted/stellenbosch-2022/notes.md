@@ -354,10 +354,31 @@ We should be willing to pay *something* for that:
 https://www.jarrodmillman.com/oss-chapter.html
 https://osf.io/h9gsd/
 
+## For volunteers, what are the benefits
+
+- Advance science
+  - If you believe science makes the world better, and that science is increasingly computational, then improving scientific tooling is important.
+- Make an impact
+  - Where else do you have an opportunity for your work to be useful to millions of other people
+  - It may be a tiny cog in a big machine, but that cog is necessary
+    - Could help fly the next space mission, decipher the origins of the universe, or help invent radically new medical treatments
+- Grow as a developer
+  - Work with some of the best programmers in the world
+  - Be part of a community of practice
+    - Learn about good collaboration, being in a team
+  - Best practices of software development & engineering
+  - Learn to present and communicate ideas to the community
+  - Work with, make friends and colleagues all over the globe
+- Shape the tools you use
+  - A transformative experience for many of us
+- You will be welcomed with open arms
+
 ## Where to learn more
 
-Follow our YouTube channel for weekly updates: ...
+Follow our YouTube channel for weekly updates: https://www.youtube.com/channel/UC2wKi87Wmy9C1OQMyD9fGxA
+
 Our website: https://scientific-python.org
+Our blog: https://blog.scientific-python.org
 
 Check out our blog (if active by then)?
 

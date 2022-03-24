@@ -9,12 +9,17 @@
     <link rel="stylesheet" href="reveal.js/dist/theme/white.css" id="theme">
 
     <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css">
+    <style type="text/css">
+     :root {
+       --r-main-font-size: 24px;
+     }
+    </style>
   </head>
   <body>
     <div class="reveal">
       <div class="slides">
         <!-- Use external markdown resource, separate slides by three newlines; vertical slides by two newlines -->
-        <section data-markdown="slides.md"/>
+        <section data-markdown="slides.md" data-separator-vertical="^\.\.\.$"/>
       </div>
     </div>
 
