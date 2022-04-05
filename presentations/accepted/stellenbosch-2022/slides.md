@@ -375,7 +375,7 @@ Notes:
 > The **Scientific Python project** aims to better coordinate the
 > ecosystem and grow the community.
 
-1. Coordinate projects
+1. Coordinate
 2. Get projects funded
 3. Support & develop shared infrastructure
 4. Improve onboarding & communication
@@ -394,7 +394,10 @@ Notes:
   - Venues for discussion
     - Discourse forum
     - Virtual technical meetings
-  - Watch ecosyste, identify pain points, and coordinate response
+  - Watch ecosystem, identify pain points, and coordinate response
+    - Like developer meetings (currently virtual)
+
+...
 
 ## Get projects funded
 
@@ -405,6 +408,9 @@ Notes:
   - Decadal dev plan (evidence of need)
   - Workshops on grant writing
   - With funding: full-time roles -> wider involvement
+  - Funding is crucial for increased participation (via, e.g. paid roles)
+
+...
 
 ## Support & develop shared infrastructure
 
@@ -423,7 +429,7 @@ Notes:
 
 Notes:
 
-  - Developer meetings on pain points
+  - Make it easy for new contributors to join the project
   - Social media
     - Onboarding
     - Dev interviews
@@ -440,3 +446,24 @@ Notes:
 
 ## What can you do?
 
+## Benefits for Contributors
+
+- Advance science
+- Make an impact
+- Grow as a developer
+- Shape the tools you use
+
+You are very welcome!
+
+---
+
+## With thanks to
+
+- Ben Herbst
+- School for Data Science and Computational Thinking
+- Praelexis
+- Stellenbosch University
+
+Email: stefanv@berkeley.edu
+<br/>
+Web: https://scientific-python.org
