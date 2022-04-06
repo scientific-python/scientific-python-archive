@@ -8,7 +8,7 @@
 
 <img alt="Scientific Python logo" src="images/scientific-python-logo.svg" width="100em"/>
 
-## Past, present, and future
+## Past, future, present
 
 <br/>
 <div style="text-align: left;">
@@ -25,7 +25,7 @@ University of California, Berkeley
 
 Notes:
 
-2016
+2016, waves detected
 Laser Interferometer Gravitational-Wave Observatory
 
 ...
@@ -35,10 +35,14 @@ Laser Interferometer Gravitational-Wave Observatory
 <img src="images/bh_diagram.jpg" width="44%"/>
 <img src="images/EHT-image.jpg" width="54%"/>
 
+Notes:
+
+Event Horizon Telescope Collaboration
+First ever image of a black hole through Very Long Baseline Interferometry
+
 ...
 
 ## 2021: Ingenuity takes off on Mars
-
 
 <img src="images/ingenuity.gif"/>
 
@@ -52,9 +56,7 @@ In this talk, I'd like to discuss why this is so special, how we got here, and w
 
 ---
 
-## What I do
-
-[Show icons of all the open source projects]
+## A quick introduction
 
 Notes:
 
@@ -62,7 +64,31 @@ Your story of how you got involved in Scientific Python.
 
 ...
 
+## What I do
+
+❤️ Scientific Python
+
+Problem ➡  Tool use ➡  Joy & frustration & 💡 ➡  Tool development
+
+Notes:
+
+Fortunate position to now devote the majority of my time to SP.
+
+Me to dad: How do you learn to program? Well, you need a problem.
+
+Some of us got a bit stuck on the last bit.
+
+...
+
 <img src="images/colormaps.webp"/>
+<img src="images/cmap-compare.png" width="80%"/>
+<img src="images/jet-gray.png" width="30%">
+<img src="images/viridis-gray.png" width="30%">
+
+...
+
+<img src="images/butterfly-press-release.png" width="50%"/>
+<img src="images/nhm-logo.png" width="20%">
 <br/>
 <img src="images/mothra_logo-text.png" width="10%" style="padding-bottom: 3rem; padding-right: 2rem;"/>
 <img src="images/mothra-result.jpeg" width="80%"/>
@@ -107,7 +133,7 @@ Naul, B., Bloom, J.S., Pérez, F. et al. A recurrent neural network for classifi
 
 ...
 
-## What I do
+## So what do you do?!
 
 A little bit of everything...
 
@@ -117,9 +143,6 @@ A little bit of everything...
 Notes:
 
 The applied mathematician's dream.
-
-Scientific need -> use tools to solve problems -> see flaws in tools
--> improve -> repeat
 
 ---
 
@@ -139,24 +162,31 @@ Notes:
 
 ...
 
-<img src="images/numpy-nature.png" width="60%"/>
 <img src="images/scipy-nature.png" width="60%"/>
+<img src="images/numpy-nature.png" width="60%"/>
 
 ...
 
-NumPy downloads slide
+<img src="images/numpy-summary.png"/>
 
 ...
 
-StackOverflow trend picture
+<img src="images/the-overflow-blog.png" width="60%"/>
 
 ...
+
+<img src="images/github-satellite-keynote-2019.png"/>
+
+Notes:
 
 GitHub: Nate's talk with our faces in background
 
+Emphasizing that importing these libraries is essentially broadening
+your developer team, "giving them commit access to your project".
+
 ...
 
-Katie Bouman's slide with our projects shown
+<img src="images/katie-bouman-portrait-of-a-black-hole.png"/>
 
 ...
 
@@ -198,7 +228,15 @@ But we are refactoring the whole data type system.
 The Scientific Python ecosystem of libraries
 is **critical research infrastructure**.
 
-[bridge image]
+Notes:
+
+- Research is becoming more data-dependent.
+- Research therefore cannot happen without software.
+- Research software relies on computational libraries.
+
+Software is the instrument with which we see data.
+The way we express our thoughts and reasoning about the world, into
+investigative instruments.
 
 ---
 
@@ -225,11 +263,11 @@ Competing against platforms built by companies with:
 
 ...
 
-## Why is SP so successful?
+## Why is SP successful?
 
-1. Principles
-2. Practices
-3. People
+📜 Principles
+🚜 Practices
+🤸🏿 People
 
 ...
 
@@ -250,15 +288,23 @@ Notes:
   - Incentive to lock users into  proprietary systems
     - This prohibits sharing, reproducibility, and transparency
 
+- Transparency: you *should* always be able to investigate the
+  *entire* scientific stack.
+- To know answers are accurate, you have to be able to look under the
+  hood.
+- The change required is bigger than just open software; you need
+  reproducible research as well (i.e. data/methods publishing). But
+  it's a start.
+
 ...
 
 ## Principles (II)
 
-http://nipy.org/nipy/mission.html
+**The important of language and library choices cannot be underestimated.**
 
 <div style="color: darkgray;">
 
-> We believe that neuroscience <span class="black">ideas and analysis develop
+> We believe that ~neuroscience~ <span class="black">ideas and analysis develop
 > together</span>.
 > Good ideas come from understanding; <span class="black">understanding comes
 > from clarity</span>, and <span class="black">clarity must come from</span> well-designed teaching
@@ -266,7 +312,8 @@ http://nipy.org/nipy/mission.html
 > The <span class="black">software must be</span> designed
 > as <span class="black">a natural extension of the underlying ideas</span>.
 >
-> <span class="black">— Matthew Brett, ~2007, for NiPy</span>
+> <span class="black">— Matthew Brett, ~2007, for NiPy</span><br/>
+http://nipy.org/nipy/mission.html
 
 </div>
 
@@ -274,7 +321,7 @@ Notes:
 
 - Re-emphasises the notion of a user-developer
 - Library interfaces and language clarity / expressivity matter: it's
-  how we express our thoughts
+  how we express our thoughts.
 
 ...
 
@@ -282,13 +329,21 @@ Notes:
 
 None of this matters if we cannot rely on the answers.
 
+Technical:
+
 - Revision control
 - Testing / continuous integration
 - Code review
 - Documentation
 - Iteration
 
+Social:
+
+- Governance (*see also:* people)
+
 Notes:
+
+No matter how sound philosophy, we still need working code!
 
 Code review both during development cycle, but also during use where
 users can easily introspect for problems.
@@ -310,6 +365,7 @@ Work done in collaboration is better and more fun—depending on the people.
 - Community
 - Culture
 - Leadership
+- Governance / decision making
 
 Notes:
 
@@ -344,11 +400,14 @@ Notes:
 ## Challenges
 
 - Developer time (review time)
-- Funding
-- Coordination
 
 <br/>
 <img src="images/gh-workflow.webp" width="50%"/>
+
+- Funding
+- Implications of receiving funding (see: NumPy circa 2018)
+- Coordination / cross-project decision making
+- Unified user experience
 
 Notes:
 
@@ -375,6 +434,8 @@ Notes:
 > The **Scientific Python project** aims to better coordinate the
 > ecosystem and grow the community.
 
+Immediate goals:
+
 1. Coordinate
 2. Get projects funded
 3. Support & develop shared infrastructure
@@ -384,7 +445,9 @@ Notes:
 
 ### Coordinate projects
 
-[screenshot discussion forum / SPEC document or approval flow]
+https://scientific-python.org/specs
+
+<img src="images/specs-list.png"/>
 
 Notes:
 
@@ -414,18 +477,36 @@ Notes:
 
 ## Support & develop shared infrastructure
 
-[scientific python screenshot]
+<img src="images/numpy.org.png"/>
 
 Notes:
 
   - Tools used across ecosystem such as numpydoc
   - Standard web themes for core projects
 
+BTW, a little easter egg on the NumPy frontpage to try!
+
+...
+
+## Support & develop shared infrastructure
+
+<img src="images/scipy.org.png"/>
+
+...
+
+## Support & develop shared infrastructure
+
+<img src="images/scientific-python.org.png"/>
+
 ...
 
 ## Improve onboarding & communication
 
-[screenshot of blog, youtube]
+- https://blog.scientific-python.org
+- https://twitter.com/scientific_py
+- https://tinyurl.com/scientific-python-youtube
+
+<img src="images/melissa-interview.png"/>
 
 Notes:
 
@@ -438,22 +519,58 @@ Notes:
   - Blog: informal
   - Discourse discussion forum
 
-## The people behind these efforts
+...
 
-[screenshot of teams]
+## The people behind this effort
+
+<img src="images/community-managers.png" width="60%"/>
+
+\+ &nbsp; `  {accessiblity, spec, theme, blog, ...} teams`
 
 ---
 
 ## What can you do?
 
-## Benefits for Contributors
+...
+
+## Support
+
+- Contribute or support students who want to
+- Reward and recognize efforts outside of paper writing
+- Fund open, not closed software (and convince the NRF to do the
+  same!)
+- Apply lessons from SP to your work
+  1. Test code
+  2. Executable papers (AKA automate everything)
+  3. Collaborate widely
+  4. Insist on open code & data (reviewing and publishing)
+
+
+*Developing open source scientific practice*, K. Jarrod Millman & Fernando Pérez<br/>
+See https://www.jarrodmillman.com/oss-chapter.html
+
+...
+
+### Benefits for Contributors
 
 - Advance science
 - Make an impact
 - Grow as a developer
 - Shape the tools you use
 
-You are very welcome!
+You are very welcome to join!
+
+...
+
+### Learn more
+
+Website: https://scientific-python.org
+
+Has links to:
+
+- Blog: https://blog.scientific-python.org
+- Twitter: https://twitter.com/scientific_py
+- YouTube: https://tinyurl.com/scientific-python-youtube
 
 ---
 
