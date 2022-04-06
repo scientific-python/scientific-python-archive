@@ -23,11 +23,16 @@ University of California, Berkeley
 <img src="images/LIGO_Hanford_aerial_05.jpg" width="49%" style="padding-bottom: 3rem;"/>
 <img src="images/LIGO_measurement_of_gravitational_waves.svg" width="49%"/>
 
+GW150914
+
 Notes:
 
-2016, waves detected
-Laser Interferometer Gravitational-Wave Observatory
-
+- 2016
+- first direct detection of gravitational waves from merger of 2 black
+holes
+- Laser Interferometer Gravitational-Wave Observatory, Hanford and Livingston
+- confirmed a proposal by Poincaré and major prediction of Einstein's 1915 general theory of relativity
+- work earned Rainer Weiss, Kip Thorne, and Barry Barish a Nobel Prize in Physics
 ...
 
 ## 2019: EHT images a black hole
@@ -235,7 +240,7 @@ Notes:
 - Research software relies on computational libraries.
 
 Software is the instrument with which we see data.
-The way we express our thoughts and reasoning about the world, into
+The way we express our thoughts and reasoning about the world as
 investigative instruments.
 
 ---
@@ -279,7 +284,7 @@ Competing against platforms built by companies with:
 Notes:
 
 - We believe that researchers know their needs best
-- Their ideas must be surfaces and integrated into the computational
+- Their ideas must be surfaced and integrated into the computational
   platform as efficiently as possible
 - In this endeavor, making money for shareholders is at best a
   distraction
@@ -345,10 +350,10 @@ Notes:
 
 No matter how sound philosophy, we still need working code!
 
-Code review both during development cycle, but also during use where
-users can easily introspect for problems.
+<!-- Code review both during development cycle, but also during use where
+users can easily introspect for problems. -->
 
-Documentation has to stay in sync with code (docstrings).
+<!-- Documentation has to stay in sync with code (docstrings). -->
 
 ...
 
@@ -362,10 +367,10 @@ Documentation has to stay in sync with code (docstrings).
 
 Work done in collaboration is better and more fun—depending on the people.
 
-- Community
-- Culture
-- Leadership
-- Governance / decision making
+- **Community** is meaningful.
+- **Culture** is important for good work.
+- **Leadership** sets direction.
+- **Governance** sets expectations and reduces misunderstandings.
 
 Notes:
 
@@ -470,8 +475,8 @@ Notes:
 
   - Decadal dev plan (evidence of need)
   - Workshops on grant writing
-  - With funding: full-time roles -> wider involvement
-  - Funding is crucial for increased participation (via, e.g. paid roles)
+  - Funding is crucial for increased participation (via,
+    e.g. full-time paid roles)
 
 ...
 
@@ -505,6 +510,7 @@ BTW, a little easter egg on the NumPy frontpage to try!
 - https://blog.scientific-python.org
 - https://twitter.com/scientific_py
 - https://tinyurl.com/scientific-python-youtube
+- https://discuss.scientific-python.org
 
 <img src="images/melissa-interview.png"/>
 
@@ -540,9 +546,9 @@ Notes:
 - Fund open, not closed software (and convince the NRF to do the
   same!)
 - Apply lessons from SP to your work
-  1. Test code
+  1. Test research code
   2. Executable papers (AKA automate everything)
-  3. Collaborate widely
+  3. Collaborate widely, credit all those involved
   4. Insist on open code & data (reviewing and publishing)
 
 
