@@ -4,7 +4,7 @@
 }
 </style>
 
-# Scientific Python
+<div style="font-size: 250%; font-weight: bold;"> Scientific Python</div>
 
 <img alt="Scientific Python logo" src="images/scientific-python-logo.svg" width="100em"/>
 
@@ -184,6 +184,8 @@ Notes:
 
 Notes:
 
+Really big corps are now using us to sell their product.
+
 GitHub: Nate's talk with our faces in background
 
 Emphasizing that importing these libraries is essentially broadening
@@ -192,6 +194,12 @@ your developer team, "giving them commit access to your project".
 ...
 
 <img src="images/katie-bouman-portrait-of-a-black-hole.png"/>
+
+Notes:
+
+US govt probably spent a billion dollars on it...
+
+... but it's all based on free software.
 
 ...
 
@@ -207,6 +215,11 @@ At Berkeley, at least:
 ... to name a few.
 
 Notes:
+
+In the beginning, we could not even find rooms on campus to teach
+this.  Still, had several workshops, bootcamps, etc.
+
+Now, it is ubiquitous.
 
 This is no longer unusual, not only at UCB.
 
@@ -228,6 +241,11 @@ Notes:
 NumPy, e.g., stable, what could you want to change about it.
 But we are refactoring the whole data type system.
 
+Despite this, poorly funded, mainly driven by volunteers outside of
+their main jobs.
+
+Very few people are rewarded for working on this (sometimes quite the contrary).
+
 ...
 
 The Scientific Python ecosystem of libraries
@@ -237,7 +255,10 @@ Notes:
 
 - Research is becoming more data-dependent.
 - Research therefore cannot happen without software.
-- Research software relies on computational libraries.
+- Research software relies on *reliable* computational libraries.
+
+In some ways, software is becoming what math used to be for research.
+Lots of training for math, but very little for scientific software development.
 
 Software is the instrument with which we see data.
 The way we express our thoughts and reasoning about the world as
@@ -256,9 +277,10 @@ Consider:
 
 Notes:
 
-- Small handful of students, junior researchers, other volunteres
+- Small handful of students, junior researchers, other volunteers
 - Predominantly in their spare time, over weekends and evenings
 - Often little to no financial support
+- Against wishes / recommendations of many colleagues (not Ben!)
 
 Competing against platforms built by companies with:
 
@@ -297,6 +319,8 @@ Notes:
   *entire* scientific stack.
 - To know answers are accurate, you have to be able to look under the
   hood.
+- You also need to be able to modify tools to do *new things*, to do
+  *whatever* needs to be done.
 - The change required is bigger than just open software; you need
   reproducible research as well (i.e. data/methods publishing). But
   it's a start.
@@ -317,7 +341,7 @@ Notes:
 > The <span class="black">software must be</span> designed
 > as <span class="black">a natural extension of the underlying ideas</span>.
 >
-> <span class="black">— Matthew Brett, ~2007, for NiPy</span><br/>
+> <span class="black">— NiPy mission statement</span><br/>
 http://nipy.org/nipy/mission.html
 
 </div>
@@ -333,6 +357,10 @@ Notes:
 ## Practices
 
 None of this matters if we cannot rely on the answers.
+
+#### At core: deliberate practice
+
+**Examples**
 
 Technical:
 
@@ -363,7 +391,10 @@ users can easily introspect for problems. -->
 
 ## People
 
-> Healthy communities are built when everyone's voice is heard, when their perspective is valued, and when their work is recognized.
+> Healthy communities are built when everyone's voice is heard, when
+> their perspective is valued, and when their work is recognized.
+>
+> https://scientific-python.org/about
 
 Work done in collaboration is better and more fun—depending on the people.
 
@@ -381,7 +412,11 @@ Notes:
   - These have been the most fulfilling and educational collaborations
     of my life.
 
-  - Being part of a movement where everyone is aligned is incredibly exciting.
+  - Being part of a movement where everyone is aligned is incredibly
+    exciting.
+
+  - For me, personally, it's been transformative to my career. Lots of
+    people have helped me get where I am today.
 
 - Culture
 
@@ -405,6 +440,7 @@ Notes:
 ## Challenges
 
 - Developer time (review time)
+- A lot of time-consuming training (GSoC, etc.)
 
 <br/>
 <img src="images/gh-workflow.webp" width="50%"/>
@@ -420,11 +456,15 @@ Notes:
   - Very few full time like me
   - Contributor time varies (also: parents, breadwinners, etc.)
 
+- We are doing a lot of training
+  - Academia and industry both often use us to train people
+  - That should be taught in universities / as professional courses
+
 - Funding
   - No grant line items
   - Few company contributions
   - Mostly foundation-supported
-    - Some grants, but need more
+    - Some grants, but need more and *longer term*
 
 - Coordination
   - Used to be small (SciPy conf), now big
@@ -444,7 +484,7 @@ Immediate goals:
 1. Coordinate
 2. Get projects funded
 3. Support & develop shared infrastructure
-4. Improve onboarding & communication
+4. Foster the next generation of contributors
 
 ...
 
@@ -464,6 +504,7 @@ Notes:
     - Virtual technical meetings
   - Watch ecosystem, identify pain points, and coordinate response
     - Like developer meetings (currently virtual)
+  - Eventually again have an annual developer meeting
 
 ...
 
@@ -487,7 +528,12 @@ Notes:
 Notes:
 
   - Tools used across ecosystem such as numpydoc
+  - Community calendars
   - Standard web themes for core projects
+  - Common discussion forums
+  - Developer statistics dashboard
+  - Benchmarking
+  - Analytics
 
 BTW, a little easter egg on the NumPy frontpage to try!
 
@@ -505,7 +551,7 @@ BTW, a little easter egg on the NumPy frontpage to try!
 
 ...
 
-## Improve onboarding & communication
+## Foster the next generation of contributors
 
 - https://blog.scientific-python.org
 - https://twitter.com/scientific_py
@@ -570,13 +616,14 @@ You are very welcome to join!
 
 ### Learn more
 
-Website: https://scientific-python.org
+#### Website: https://scientific-python.org
 
 Has links to:
 
 - Blog: https://blog.scientific-python.org
 - Twitter: https://twitter.com/scientific_py
 - YouTube: https://tinyurl.com/scientific-python-youtube
+- Discourse: https://discuss.scientific-python.org
 
 ---
 
