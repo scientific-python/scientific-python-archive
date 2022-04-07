@@ -4,11 +4,11 @@
 }
 </style>
 
-<div style="font-size: 250%; font-weight: bold;"> Scientific Python</div>
+<div style="font-size: 200%; font-weight: 600;"> Scientific Python</div>
 
 <img alt="Scientific Python logo" src="images/scientific-python-logo.svg" width="100em"/>
 
-## Past, future, present
+<div style="font-size: 150%; font-weight: 400;">Past, future, and present</div>
 
 <br/>
 <div style="text-align: left;">
@@ -57,7 +57,8 @@ Notes:
 first powered controlled extraterrestrial flight
 
 What do they have in common? Each has pipelines that utilize the Scientific Python ecosystem.
-In this talk, I'd like to discuss why this is so special, how we got here, and what lies on the road ahead.
+In this talk, I'd like to discuss why this is so special, where we are
+now, and what lies on the road ahead.
 
 ---
 
@@ -66,6 +67,19 @@ In this talk, I'd like to discuss why this is so special, how we got here, and w
 Notes:
 
 Your story of how you got involved in Scientific Python.
+
+- Just a regular engineering student with no software development credentials
+- Problems installing Matlab
+- Vague sense that it would be neat to do this using open source software
+- Found a community of others who cared about the same, wonderful!
+
+<hr/>
+
+- Ben 2004 sabbatical Colorado, Fernando
+- Workshop 2006, Stellenbosch, co teacher
+- Albert Strasheim + I fixing memory bugs in NumPy
+- Watershed moment: before and after
+- Joined then, never left
 
 ...
 
@@ -178,6 +192,17 @@ Notes:
 
 <img src="images/the-overflow-blog.png" width="60%"/>
 
+<!-- https://stackoverflow.blog/2017/09/06/incredible-growth-python/ -->
+
+...
+
+<img src="images/dataiku-report.png"/>
+
+*Pathfinder Report: Routes to Enterprise Open Source Data
+Science Adoption*, Data Iku, August 2018
+
+<!-- https://pages.dataiku.com/451-open-source-report -->
+
 ...
 
 <img src="images/github-satellite-keynote-2019.png"/>
@@ -238,13 +263,12 @@ It is continually improving, growing, responding to needs
 
 Notes:
 
-NumPy, e.g., stable, what could you want to change about it.
-But we are refactoring the whole data type system.
-
 Despite this, poorly funded, mainly driven by volunteers outside of
 their main jobs.
 
 Very few people are rewarded for working on this (sometimes quite the contrary).
+
+Re: responding to needs, NumPy is stable, yet refactoring entire data type system.
 
 ...
 
@@ -257,12 +281,11 @@ Notes:
 - Research therefore cannot happen without software.
 - Research software relies on *reliable* computational libraries.
 
-In some ways, software is becoming what math used to be for research.
+In some ways, software is becoming like what math is in research.
 Lots of training for math, but very little for scientific software development.
 
 Software is the instrument with which we see data.
-The way we express our thoughts and reasoning about the world as
-investigative instruments.
+It is the way we express our thoughts and reason about the world.
 
 ---
 
@@ -396,7 +419,7 @@ users can easily introspect for problems. -->
 >
 > https://scientific-python.org/about
 
-Work done in collaboration is better and more fun—depending on the people.
+Work done in collaboration is better and more fun.
 
 - **Community** is meaningful.
 - **Culture** is important for good work.
@@ -532,8 +555,8 @@ Notes:
   - Standard web themes for core projects
   - Common discussion forums
   - Developer statistics dashboard
-  - Benchmarking
-  - Analytics
+  - Benchmarking & testing
+  - Web analytics
 
 BTW, a little easter egg on the NumPy frontpage to try!
 
