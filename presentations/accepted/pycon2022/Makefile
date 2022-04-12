@@ -1,0 +1,4 @@
+.PHONY: server
+
+server:
+	./server
