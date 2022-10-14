@@ -18,7 +18,8 @@ urlcolor: RoyalBlue
 toccolor: RoyalBlue
 abstract: |
     \vfill\noindent
-    Summary to be written.
+
+    We ask that the eScience Institute at the University of Washington sponsor the first annual Scientific Python Developer Summit by providing workspaces for up to forty participants, who will develop shared infrastructure for libraries in the scientific Python ecosystem. The week-long summit will take place sometime between February and June 2023.
 
     \newpage
 ---
@@ -30,10 +31,11 @@ from the scientific Python ecosystem to come together to:
 
 ## Improve joint infrastructure
 
-Join efforts and resources to adopt and improve infrastructre and
-processes that are used by projects across the board. These include
-infrastructure covered by SPECS protocols already, including but not
-limited to documentation, testing, packaging, and CI infrastructure.
+Collaborate to adopt and improve infrastructure, tools, and processes
+used across projects. This includes infrastructure already described
+by Scientific Python Ecosystem Coordination documents (SPECs), as well
+as, but not limited to, tools for documentation, testing, packaging,
+and Continuous Integration (CI).
 
 ```
 Re-usable libraries with commonly used functionality
@@ -56,7 +58,6 @@ Our community has never before engaged in a deliberative process to try and anti
 The strategic plan will identify core needs and future challenges of
 the scientific Python community. Rather than focusing on the technical details of one particular core project, the strategic plan would discuss the challenges shared by more projects. The plan will also be used by the community
 for support when applying for federal grants.
-
 
 # Logistics
 
@@ -89,4 +90,3 @@ We will plan to have several small work groups.
 Lunch could be catered and delivered to the work rooms or we could go to near by restaurants.
 
 ## Post-Summit Implementation
-
