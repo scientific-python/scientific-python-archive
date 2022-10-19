@@ -79,6 +79,5 @@ Lunch could be catered and delivered to the work rooms, or we could go to nearby
 
 ## Post-Summit Implementation
 
-During the meeting we will file issues on both the planning repository and on the repositories of individual projects.
 After the meeting, attendees will collaborate on their assigned tasks until completion.
 The Scientific Python project also has funding to further develop some of these tasks, and will apply for additional funds to complete some of the rest.
