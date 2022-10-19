@@ -1,6 +1,7 @@
 ---
 title: '\Large The First Annual Scientific Python Developer Summit \vspace{2cm}'
-author: '\large Brigitta Sipőcz, K. Jarrod Millman, and Stéfan J. van der Walt \newline Scientific Python $\; \diamond \;$ \url{https://scientific-python.org}'
+author: '\large Brigitta Sipőcz, K. Jarrod Millman, and Stéfan J. van der Walt \newline Scientific Python $\; \diamond \;$ \url{https://scientific-python.org} \vspace{0.5cm}'
+date: '\large October 19, 2022'
 draft: true
 #fontfamily: utopia
 # See also http://pandoc.org/MANUAL.html#templates (search for fontfamily)
