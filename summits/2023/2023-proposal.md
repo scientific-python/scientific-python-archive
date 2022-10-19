@@ -32,7 +32,7 @@ from the scientific Python ecosystem to come together to:
 ## 1. Improve joint infrastructure
 
 Collaborate to adopt and improve infrastructure, tools, and processes
-used across projects. This includes infrastructure already described3
+used across projects. This includes infrastructure already described
 in Scientific Python Ecosystem Coordination documents (SPECs), as well
 as, but not limited to, tools for documentation, testing, benchmarking,
 packaging, and Continuous Integration (CI).
