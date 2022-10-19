@@ -61,7 +61,7 @@ The plan will also be used by the community for support when applying for federa
 
 We have funding to cover 40—no more than 50—participants for 5 days, 6 nights, including travel, food, and lodging.
 This will be an invite-only event that requires upfront agreement to commit a substantial amount of time to
-(a) take part in three to four months of pre-summit plannning,
+(a) take part in three to four months of pre-summit planning,
 (b) attend the one-week summit in-person, and
 (c) participate in several months of post-summit implementation.
 
