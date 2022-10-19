@@ -32,7 +32,7 @@ from the scientific Python ecosystem to come together to:
 ## 1. Improve joint infrastructure
 
 Collaborate to adopt and improve infrastructure, tools, and processes
-used across projects. This includes infrastructure already described
+used across projects. This includes infrastructure already described3
 in Scientific Python Ecosystem Coordination documents (SPECs), as well
 as, but not limited to, tools for documentation, testing, benchmarking,
 packaging, and Continuous Integration (CI).
@@ -59,7 +59,7 @@ This will be an invite-only event that requires upfront agreement to commit a su
 ## Participants
 
 Participants will be recruited from the community of developers already actively engaged with the Scienfic Python project.
-Developers will represent packages such as NumPy, SciPy, matplotlib, xarray, pandas, scikit-image, scikit-learn, NetworkX, and IPython as well as domain stacks including astropy, pangeo, and scikit-hep.
+Developers will represent packages such as NumPy, SciPy, matplotlib, xarray, pandas, scikit-image, scikit-learn, NetworkX, and IPython, as well as domain stacks including astropy, pangeo, and scikit-hep.
 
 ## Timing
 
@@ -79,6 +79,6 @@ Lunch could be catered and delivered to the work rooms, or we could go to nearby
 
 ## Post-Summit Implementation
 
-During the meeting we will file issues on both the planning repository and on those of individual projects.
+During the meeting we will file issues on both the planning repository and on the repositories of individual projects.
 After the meeting, attendees will collaborate on their assigned tasks until completion.
-The Scientific Python project also has funding to further develop some of these tasks and we will apply for additional funds for other tasks.
+The Scientific Python project also has funding to further develop some of these tasks, and will apply for additional funds to complete some of the rest.
