@@ -60,7 +60,7 @@ This will be an invite-only event that requires upfront agreement to commit a su
 ## Participants
 
 Participants will be recruited from the community of developers already actively engaged with the Scientific Python project.
-Developers will represent packages such as NumPy, SciPy, matplotlib, xarray, pandas, scikit-image, scikit-learn, NetworkX, and IPython, as well as domain stacks including astropy, pangeo, and scikit-hep.
+Developers will represent packages such as NumPy, SciPy, matplotlib, xarray, pandas, scikit-image, scikit-learn, NetworkX, and IPython, as well as domain stacks including Astropy, Pangeo, and scikit-HEP.
 
 ## Timing
 
