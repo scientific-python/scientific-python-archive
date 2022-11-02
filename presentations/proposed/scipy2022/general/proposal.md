@@ -11,9 +11,11 @@ Scientific Python---From GitHub to TikTok
 
 ## Short Summary
 
-The Scientific Python project aims to better coordinate the ecosystem and prepare Scientific Python for the next decade.
-We are a group of volunteers behind several projects from the ecosystem committed to expanding our community
-by generating a welcoming and friendly environment where projects collaborate, build, and improve together.
+The Scientific Python project aims to better coordinate the ecosystem and grow the community.
+This talk focuses on our efforts to expand our community by generating a welcoming and friendly
+environment where people collaborate, build, and improve together.
+Come hear about our recent community building and outreach efforts, and
+learn how you can get involved!
 
 ## Abstract
 
@@ -33,7 +35,7 @@ how they contribute, and demos, which give an overview of the problem solving wo
 
 ### Blog 
 
-The [Scientific Python blog](http://blog.scientific-python.org/) is a place where contributors can share their thoughts and ideas in order to learn more about the ecosystem together.
+The Scientific Python blog is a place where contributors can share their thoughts and ideas in order to learn more about the ecosystem together.
 We strongly believe that healthy communities are built when everyone’s voice is heard and different perspectives are valued.
 
 ### Social Media
@@ -46,7 +48,7 @@ This will help us stay in touch with more people that are interested in contribu
 ### Come join us!
 
 This talk shares our view of the future of the Scientific Python community and is a call to action for others to join us in this journey.
-We are looking for Scientific Python projects with varying skills, backgrounds, and perspectives to build an inclusive, diverse, and friendly ecosystem.
+We are looking for people with varying skills, backgrounds, and perspectives to build an inclusive, diverse, and friendly ecosystem.
 
 ## Other information
 
@@ -54,3 +56,46 @@ Track: General
 Author: Juanita Gomez
 Keywords: Scientific Python, Community
 Type:  Talk
+corresponding author
+
+### Author 1
+
+First name†: Juanita
+Last name: Gomez
+Email: juanitagomezr2112@gmail.com
+Country/region: Colombia
+Organization: UC Santa Cruz
+
+### Author 2
+
+First name†: Melissa
+Last name: Mendonça
+Email: melissawm@gmail.com 
+Country/region: Brazil
+Organization: Quansight
+
+### Author 3
+
+First name†: K. Jarrod
+Last name: Millman
+Email: millman@berkeley.edu
+Country/region: USA
+Organization: UC Berkeley
+Web page: https://jarrodmillman.com
+
+### Author 4
+
+First name†: Inessa
+Last name: Pawson
+Email: inessa@albuscode.org
+Country/region: USA
+Organization: 
+
+### Author 5
+
+First name†: Stéfan
+Last name: van der Walt
+Email: stefanv@berkeley.edu
+Country/region: USA
+Organization: UC Berkeley
+
