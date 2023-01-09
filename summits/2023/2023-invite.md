@@ -1,7 +1,7 @@
 ---
 title: '\Large The First Annual Scientific Python Developer Summit \vspace{2cm}'
 author: '\large Brigitta Sipőcz, K. Jarrod Millman, and Stéfan J. van der Walt \newline Scientific Python $\; \diamond \;$ \url{https://scientific-python.org} \vspace{0.5cm}'
-date: '\large October 19, 2022'
+date: '\large January 9, 2023'
 draft: true
 #fontfamily: utopia
 # See also http://pandoc.org/MANUAL.html#templates (search for fontfamily)
@@ -53,19 +53,28 @@ The plan will also be used by the community for support when applying for federa
 
 We have funding to cover 40 participants for five days and six nights including travel, food, and lodging.
 This will be an invite-only event that requires upfront agreement to commit a substantial amount of time to
-(a) take part in three to four months of pre-summit planning,
+(a) take part in two of the three pre-summit planning meetings,
+(b) interact with fellow participants in the public forums,
 (b) attend the one-week summit in-person, and
 (c) participate in several months of post-summit implementation.
 
 ## Participants
 
-Participants will be recruited from the community of developers already actively engaged with the Scientific Python project.
-Developers will represent packages such as NumPy, SciPy, matplotlib, xarray, pandas, scikit-image, scikit-learn, NetworkX, and IPython, as well as domain stacks including Astropy, Pangeo, and scikit-HEP.
+Participants will be recruited from the community of developers of packages
+such as NumPy, SciPy, matplotlib, xarray, pandas, scikit-image, scikit-learn,
+NetworkX, and IPython, as well as domain stacks including Astropy, Pangeo, and
+scikit-HEP.
 
-## Timing
+## Dates
 
-We need four months lead time to plan and coordinate work.
-Assuming we get an early confirmation, a one-week period between February and June 2023 would be ideal for the summit itself. Spring or early summer break would be ideal.
+Participants will be expected to participate in two of the three planning meetings
+and the weekly long summit.
+
+- February planning meeting (TBD)
+- March planning meeting (TBD)
+- April planning meeting (TBD)
+- May 22-26, 2023 Summit
+
 
 ## Pre-Summit Planning
 
@@ -75,8 +84,6 @@ The work plan will be decided before the meeting, and includes deciding on topic
 
 ## Summit Execution
 
-We do not need the entire group to meet in one room at the same time, because work will be planned and subdivided beforehand.
-Lunch could be catered and delivered to the work rooms, or we could go to nearby restaurants.
 
 ## Post-Summit Implementation
 
