@@ -19,7 +19,6 @@ urlcolor: RoyalBlue
 toccolor: RoyalBlue
 abstract: |
     \vfill\noindent
-    
     The first annual Scientific Python Developer Summit (May 22-26, 2023) will be hosted by the eScience Institute at the University of Washington. The week-long summit will bring together forty participants, who will develop shared infrastructure for libraries in the Scientific Python ecosystem.
 
     \newpage
@@ -75,15 +74,20 @@ and the weekly long summit.
 - April planning meeting (TBD)
 - May 22-26, 2023 Summit
 
+The planning meetings will have two or three "parallel tracks" so that smaller groups can focus on their subprojects.
+Attendees should arrive the day before the summit starts, and stay for the entire duration of the summit.
 
 ## Pre-Summit Planning
 
-Participants will be responsible for attending two or more one-hour video meetings and for
+Participants will be responsible for attending two or more one-hour video meetings (the planning meetings mentioned above) and for
 participating in a planning repository via PRs, issues—as both contributors and reviewers.
-The work plan will be decided before the meeting, and includes deciding on topics, dividing the work, and scheduling the meeting.
+There is no heavy top-down structure: participants themselves will organize the work that needs to be done ahead of time.
+They will deciding on topics, divide the work, and schedule the meeting.
 
 ## Summit Execution
 
+The goal of the summit is to be a hands-on work meeting.
+That said, there will be some free time scheduled to brainstorm new ideas, and to discuss current community projects and activities.
 
 ## Post-Summit Implementation
 
