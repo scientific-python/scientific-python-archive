@@ -43,5 +43,4 @@
 41 Lars Grueter
 42 Greg Lee
 43 Chris Holdgraf
-44 Juan Nunez-Iglesias
-45 Matt Haberland
+44 Matt Haberland
