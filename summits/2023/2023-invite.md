@@ -1,7 +1,7 @@
 ---
 title: '\Large The First Annual Scientific Python Developer Summit \vspace{2cm}'
 author: '\large Brigitta Sipőcz, K. Jarrod Millman, and Stéfan J. van der Walt \newline Scientific Python $\; \diamond \;$ \url{https://scientific-python.org} \vspace{0.5cm}'
-date: '\large October 19, 2022'
+date: '\large January 9, 2023'
 draft: true
 #fontfamily: utopia
 # See also http://pandoc.org/MANUAL.html#templates (search for fontfamily)
@@ -19,7 +19,6 @@ urlcolor: RoyalBlue
 toccolor: RoyalBlue
 abstract: |
     \vfill\noindent
-    
     The first annual Scientific Python Developer Summit (May 22-26, 2023) will be hosted by the eScience Institute at the University of Washington. The week-long summit will bring together forty participants, who will develop shared infrastructure for libraries in the Scientific Python ecosystem.
 
     \newpage
@@ -53,30 +52,42 @@ The plan will also be used by the community for support when applying for federa
 
 We have funding to cover 40 participants for five days and six nights including travel, food, and lodging.
 This will be an invite-only event that requires upfront agreement to commit a substantial amount of time to
-(a) take part in three to four months of pre-summit planning,
+(a) take part in two of the three pre-summit planning meetings,
+(b) interact with fellow participants in the public forums,
 (b) attend the one-week summit in-person, and
 (c) participate in several months of post-summit implementation.
 
 ## Participants
 
-Participants will be recruited from the community of developers already actively engaged with the Scientific Python project.
-Developers will represent packages such as NumPy, SciPy, matplotlib, xarray, pandas, scikit-image, scikit-learn, NetworkX, and IPython, as well as domain stacks including Astropy, Pangeo, and scikit-HEP.
+Participants will be recruited from the community of developers of packages
+such as NumPy, SciPy, matplotlib, xarray, pandas, scikit-image, scikit-learn,
+NetworkX, and IPython, as well as domain stacks including Astropy, Pangeo, and
+scikit-HEP.
 
-## Timing
+## Dates
 
-We need four months lead time to plan and coordinate work.
-Assuming we get an early confirmation, a one-week period between February and June 2023 would be ideal for the summit itself. Spring or early summer break would be ideal.
+Participants will be expected to participate in two of the three planning meetings
+and the weekly long summit.
+
+- February planning meeting (TBD)
+- March planning meeting (TBD)
+- April planning meeting (TBD)
+- May 22-26, 2023 Summit
+
+The planning meetings will have two or three "parallel tracks" so that smaller groups can focus on their subprojects.
+Attendees should arrive the day before the summit starts, and stay for the entire duration of the summit.
 
 ## Pre-Summit Planning
 
-Participants will be responsible for attending two or more one-hour video meetings and for
+Participants will be responsible for attending two or more one-hour video meetings (the planning meetings mentioned above) and for
 participating in a planning repository via PRs, issues—as both contributors and reviewers.
-The work plan will be decided before the meeting, and includes deciding on topics, dividing the work, and scheduling the meeting.
+There is no heavy top-down structure: participants themselves will organize the work that needs to be done ahead of time.
+They will deciding on topics, divide the work, and schedule the meeting.
 
 ## Summit Execution
 
-We do not need the entire group to meet in one room at the same time, because work will be planned and subdivided beforehand.
-Lunch could be catered and delivered to the work rooms, or we could go to nearby restaurants.
+The goal of the summit is to be a hands-on work meeting.
+That said, there will be some free time scheduled to brainstorm new ideas, and to discuss current community projects and activities.
 
 ## Post-Summit Implementation
 
