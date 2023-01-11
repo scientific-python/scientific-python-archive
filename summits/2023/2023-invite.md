@@ -50,7 +50,7 @@ The plan will also be used by the community for support when applying for federa
 
 # Logistics
 
-We have funding to cover 40 participants for five days and six nights including travel, food, and lodging.
+We have funding (i.e., for travel, food, and lodging) and space for 40 participants for five days and six nights.
 This will be an invite-only event that requires upfront agreement to:
 (a) take part in two of the three one-hour pre-summit planning meetings,
 (b) collaborate with fellow participants on a work plan,
