@@ -51,11 +51,11 @@ The plan will also be used by the community for support when applying for federa
 # Logistics
 
 We have funding to cover 40 participants for five days and six nights including travel, food, and lodging.
-This will be an invite-only event that requires upfront agreement to commit a substantial amount of time to
-(a) take part in two of the three pre-summit planning meetings,
-(b) interact with fellow participants in the public forums,
-(b) attend the one-week summit in-person, and
-(c) participate in several months of post-summit implementation.
+This will be an invite-only event that requires upfront agreement to:
+(a) take part in two of the three one-hour pre-summit planning meetings,
+(b) collaborate with fellow participants on a work plan,
+(c) attend the one-week summit in-person, and
+(d) participate, to whatever degree possible, in several months of post-summit implementation.
 
 ## Participants
 
