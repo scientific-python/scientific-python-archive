@@ -1,0 +1,22 @@
+Dear Scientific Python contributor,
+
+Given your involvement with the Scientific Python project and your contributions to the larger ecosystem, we
+are happy to invite you to the first annual Scientific Python Developer Summit (May 22-26, 2023) hosted by
+the eScience Institute at the University of Washington.
+
+We have funding to cover 40 participants for five days and six nights including travel, food, and lodging.
+Due to space and funding constraints as well as the fact that this is our first summit, this is an invite-only
+event that requires upfront agreement to commit a substantial amount of time to
+(a) take part in two of the three pre-summit planning meetings,
+(b) interact with fellow participants in the public forums,
+(c) attend the one-week summit in-person, and
+(d) participate in several months of post-summit implementation.
+
+This may sound like a lot of additional work, but the idea is that you would be working on things that you
+are already working on. The meeting will largely be self-organized and the work depend on what the participants
+choose to focus on.
+
+Please see the attached document for addtional details and let us know whether you can commit to participating in this year's summit by Sunday, January 22nd.
+
+Best regards,
+Brigitta, Stefan, and Jarrod
