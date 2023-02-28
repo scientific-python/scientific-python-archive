@@ -20,9 +20,25 @@ Come hear about our goals, our recent technical work, and learn how you can get 
 
 ## Description (500 words)
 
-The Scientific Python project's vision is to help pave the way towards a unified, expanded scientific Python community.
+The Scientific Python project's vision is to help pave the way toward a unified, expanded scientific Python community.
 It focuses its efforts along two primary axes: _(i)_ to create a joint community around all scientific projects
 and _(ii)_ to support maintainers by building cross-cutting technical infrastructure and tools.
+
+Last year we launched with new websites, a new theme, a social media campaign, and a collaborative coordination process.
+CZI has funded continued development, maintainence, and support for the themes and community infrastructure.
+Now that the community and communication infrastructure has support for the next few years,
+we will focus more on technical topics and the SPECs.
+
+As a first step, we have started working on sparse arrays in scipy with the goal of removing
+sparse matrices and eventually numpy matrices.
+Mention sparse summit.
+And how sparse arrays touches multiple projects, numpy, scipy, scikit-images, networkx, scikit-learn, and all the packages built on top of these packages.
+
+In addition to the sparse summit, we have had a domain summit and the first annual developer summit.
+The first annual developer summit brought together over 30 community members for a week-long collaborative
+developer sprint.
+
+Finally, we will update the community on our progress on the decadal plan.
 
 - CZI grant w/ Quansight (building on the work from last year)
   - https://scientific-python.org/grants/community_and_communications_infrastructure/
