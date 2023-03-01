@@ -52,11 +52,19 @@ Keywords: Scientific Python, Ecosystem
 Type:  Talk
 corresponding author
 
+### Author 1
+
+First name†: Juanita
+Last name: Gomez
+Email: juanitagomezr2112@gmail.com
+Country/region: Colombia
+Organization: UC Santa Cruz
+
 ### Author 2
 
 First name†: Brigitta
 Last name: Sipőcz
-Email: 
+Email: bsipocz@gmail.com
 Country/region: USA
 Organization: CalTech
 
