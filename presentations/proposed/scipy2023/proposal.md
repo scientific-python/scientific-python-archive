@@ -36,8 +36,6 @@ This in-person workshop brought together over 30 community members for a week-lo
 
 Finally, we will update the community on our progress on the [decadal plan](https://scientific-python.org/grants/planning_next_decade/).
 
-**TODO** Make https://scientific-python.org/grants/sparse_arrays (need to make)
-
 ## Notes (These notes are meant for the organiser and won't be made public.)
 
 ## Session image ?
