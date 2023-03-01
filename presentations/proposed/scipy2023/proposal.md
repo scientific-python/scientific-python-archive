@@ -16,7 +16,7 @@ Talk (30 minutes)
 
 The Scientific Python project aims to better coordinate the ecosystem and grow the community.
 This talk focuses on our efforts to better coordinate project development, and to improve shared infrastructure.
-Come hear about our goals, our recent technical work, and learn how you can get involved!
+Come hear about our recent progress and our plans for the coming year!
 
 ## Description (500 words)
 
