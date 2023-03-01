@@ -32,7 +32,7 @@ As a first project, we are [funded to work on improving sparse *array*](https://
 This project spans multiple projects, including numpy, scipy, scikit-image, networkx, scikit-learn, and many of the packages built on top of these libraries.
 
 In addition to the sparse summit, we have hosted a [domain stack summit](https://scientific-python.org/summits/domain-stacks/), to discuss domain-specific umbrella projects that host several others, as well as the first [annual developer summit](https://scientific-python.org/summits/developer/).
-This in-person workshop brought together over 30 community members for a week-long, collaborative sprint, and tackled topics including build & testing systems, continuous integration infrastructure, and release management tools.
+This in-person workshop brought together over 30 community members for a week-long, collaborative sprint, and tackled topics including build & testing systems, continuous integration infrastructure, release management tools, and community management.
 
 Finally, we will update the community on our progress on the [decadal plan](https://scientific-python.org/grants/planning_next_decade/).
 
