@@ -20,39 +20,23 @@ Come hear about our goals, our recent technical work, and learn how you can get 
 
 ## Description (500 words)
 
-The Scientific Python project's vision is to help pave the way toward a unified, expanded scientific Python community.
-It focuses its efforts along two primary axes: _(i)_ to create a joint community around all scientific projects
+The Scientific Python project's vision is to help pave the way toward a vibrant, unified scientific Python community.
+It focuses its efforts along two primary axes: _(i)_ to create a joint community around all scientific Python projects
 and _(ii)_ to support maintainers by building cross-cutting technical infrastructure and tools.
 
-Last year we launched with new websites, a new theme, a social media campaign, and a collaborative coordination process.
-CZI has funded continued development, maintainence, and support for the themes and community infrastructure.
-Now that the community and communication infrastructure has support for the next few years,
-we will focus more on technical topics and the SPECs.
+Last year we launched the project with new websites, a Hugo web theme, a social media campaign, and a collaborative coordination process similar to PEPs called SPECs.
+This year, we are fortunate to have received [funding from CZI](https://scientific-python.org/grants/community_and_communications_infrastructure/) for the continued development, maintenance, and support of web and documentation themes, as well as other community infrastructure, in collaboration with Quansight.
+With the community and communication infrastructure having support for the next few years, we are able to focus more on technical topics and the SPECs.
 
-As a first step, we have started working on sparse arrays in scipy with the goal of removing
-sparse matrices and eventually numpy matrices.
-Mention sparse summit.
-And how sparse arrays touches multiple projects, numpy, scipy, scikit-images, networkx, scikit-learn, and all the packages built on top of these packages.
+As a first project, we are [funded to work on improving sparse *array*](https://scientific-python.org/grants/sparse_arrays) (vs matrix) semantics in SciPy with the goal of removing sparse *matrices* and, eventually, also NumPy *matrices* from several ecosystem libraries. In line with our philosophy of continually working with the community and incorporating their feedback, we hosted the first of several [sparse summits](https://scientific-python.org/summits/sparse/)—virtual meetings to identify sparse array needs in ecosystem libraries.
+This project spans multiple projects, including numpy, scipy, scikit-image, networkx, scikit-learn, and many of the packages built on top of these libraries.
 
-In addition to the sparse summit, we have had a domain summit and the first annual developer summit.
-The first annual developer summit brought together over 30 community members for a week-long collaborative
-developer sprint.
+In addition to the sparse summit, we have hosted a [domain stack summit](https://scientific-python.org/summits/domain-stacks/), to discuss domain-specific umbrella projects that host several others, as well as the first [annual developer summit](https://scientific-python.org/summits/developer/).
+This in-person workshop brought together over 30 community members for a week-long, collaborative sprint, and tackled topics including build & testing systems, continuous integration infrastructure, and release management tools.
 
-Finally, we will update the community on our progress on the decadal plan.
+Finally, we will update the community on our progress on the [decadal plan](https://scientific-python.org/grants/planning_next_decade/).
 
-- CZI grant w/ Quansight (building on the work from last year)
-  - https://scientific-python.org/grants/community_and_communications_infrastructure/
-- sparse CZI grant (first cross-project work)
-  - https://scientific-python.org/grants/sparse_arrays (need to make)
-- summits
-  - sparse
-    https://scientific-python.org/summits/sparse/
-  - domain stacks
-    https://scientific-python.org/summits/domain-stacks/
-  - dev summit
-    https://scientific-python.org/summits/developer/
-- conclude w/ update on decadal plan
-  https://scientific-python.org/grants/planning_next_decade/
+**TODO** Make https://scientific-python.org/grants/sparse_arrays (need to make)
 
 ## Notes (These notes are meant for the organiser and won't be made public.)
 
@@ -73,7 +57,7 @@ corresponding author
 ### Author 2
 
 First name†: Brigitta
-Last name: 
+Last name: Sipőcz
 Email: 
 Country/region: USA
 Organization: CalTech
