@@ -35,7 +35,9 @@ This in-person workshop brought together over 30 community members for a week-lo
 
 Finally, we will update the community on our progress on the [decadal plan](https://scientific-python.org/grants/planning_next_decade/).
 
-All our efforts until now have helped to bring the Scientific Python community together and have resulted in joint efforts for tool development and shared infrastructure that will impact positively the whole ecosystem. There is still a long road ahead but we are ready to prepare scientific Python for the next decade. 
+Our efforts thus far have already culminated in joint efforts to develop tools and shared infrastructure that will positively impact the whole ecosystem.
+And, while there is still a long road ahead, we are excited to continue preparing the ecosystem for the next decade of scientific computing in Python.
+
 ## Notes (These notes are meant for the organiser and won't be made public.)
 
 ## Session image ?
