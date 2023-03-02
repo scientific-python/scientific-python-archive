@@ -6,7 +6,7 @@ https://www.scipy2023.scipy.org/present
 
 ## Title
 
-Scientific Python---Year in Review
+Scientific Python: from `__init__` to `__call__` 
 
 ## Session type
 
@@ -14,7 +14,7 @@ Talk (30 minutes)
 
 ## Abstract (100 words)
 
-The Scientific Python project aims to better coordinate the ecosystem and grow the community.
+The Scientific Python project aims to better coordinate the ecosystem and grow the community. 
 Come hear about our recent progress and our plans for the coming year!
 
 ## Description (500 words)
