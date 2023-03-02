@@ -15,13 +15,12 @@ Talk (30 minutes)
 ## Abstract (100 words)
 
 The Scientific Python project aims to better coordinate the ecosystem and grow the community.
-This talk focuses on our efforts to better coordinate project development, and to improve shared infrastructure.
 Come hear about our recent progress and our plans for the coming year!
 
 ## Description (500 words)
 
 The Scientific Python project's vision is to help pave the way toward a vibrant, unified, and collaborative scientific Python community.
-It focuses its efforts along two primary axes: _(i)_ to create a joint community around all scientific Python projects
+It focuses its efforts along two primary axes: _(i)_ to create a joint community around scientific Python projects
 and _(ii)_ to support maintainers by building cross-cutting technical infrastructure and tools.
 
 Last year we launched the project with new websites, a Hugo web theme, a social media campaign, and a collaborative coordination process similar to PEPs called SPECs.
