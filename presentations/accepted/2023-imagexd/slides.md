@@ -356,14 +356,20 @@ Immediate goals:
 
 ## pyOpenSci.org
 
-> pyOpenSci builds diverse community around scientific open source software through open peer review, training and mentorship
+<div class="center">
+
+https://www.pyopensci.org/get-involved-contact.html
+
+</div>
+
+> pyOpenSci builds diverse community around scientific open source software through open peer review, training, and mentorship
 
 **Open peer review of Python scientific software provides:**
 
 - Increase discoverability of high quality, maintained tools
 - A supportive community for maintainers
 - Guidance on packaging best practices
-- Credit for developing software
+- Credit for developing software (via traditional mechanisms)
 
 **Python packaging guidance**
 
