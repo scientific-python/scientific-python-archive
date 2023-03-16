@@ -32,6 +32,10 @@ Stéfan van der Walt<br/>
 University of California, Berkeley
 </div>
 
+Notes:
+
+- Excited to be here
+- 2016 to now
 <!--
 
 We are especially interested in major challenges you
@@ -52,6 +56,12 @@ Talk is 20 minutes.
 <img src="images/tsa-ct-scanner.jpg"/>
 </div>
 
+Notes:
+
+Saw sign in airport
+This was how I got into image processing!
+Ability to see inside an object without cutting it open 🤯
+
 ...
 
 <div class="center">
@@ -60,7 +70,7 @@ Talk is 20 minutes.
 
 <div class="center-quote">
 
-> scikit-image is a collection of algorithms for image processing. It is available free of charge and free of restriction. We pride ourselves on high-quality, peer-reviewed code, written by an active community of volunteers.
+> scikit-image is a collection of **algorithms** for **image processing** written **in Python**. It is available free of charge and **free of restriction**. We pride ourselves on high-quality, peer-reviewed code, written by an active **community** of volunteers.
 
 </div>
 
@@ -76,9 +86,19 @@ Notes:
 
 <img src="images/tweet-spinning-coin.jpg" style="margin-bottom: -2rem; padding-bottom: 0;"/>
 
-https://twitter.com/hardmath123/status/1309217036925501441
+<div style="font-size: 80%;">
+
+https://twitter.com/hardmath123/status/1309217036925501441<br/>
+https://twitter.com/hardmath123/status/1309217472176742401
 
 </div>
+
+</div>
+
+Notes:
+
+- Why did I build it? To be the tool I would have wanted to have around during my PhD.
+- Many algorithms from mailing list. Others from PhD work.
 
 ...
 
@@ -86,9 +106,18 @@ https://twitter.com/hardmath123/status/1309217036925501441
 
 <img src="images/tweet-spinning-coin-2.jpg" width="560px"/>
 
+<div style="font-size: 80%;">
+
 https://twitter.com/hardmath123/status/1309217036925501441
 
 </div>
+
+</div>
+
+Notes:
+
+- This is what we wanted to enable.
+- By providing basic building blocks so researchers could focus on their ideas.
 
 ...
 
@@ -100,10 +129,16 @@ https://twitter.com/hardmath123/status/1309217036925501441
 
 </div>
 
-Notes:
+<div class="fragment">
 
-Community driven open source is as much about the people as it is
-about the software.
+<div class="center">
+
+<b>Community driven open source is as much about people as it is
+about software.</b>
+
+</div>
+
+</div>
 
 ...
 
@@ -224,6 +259,16 @@ A potential route:
 2. This package contains both `skimage` and `skimage2` libraries.
 3. Over time, deprecate the functions in `skimage` with instructions.
 4. Eventually remove `skimage`, with instructions.
+
+Notes:
+
+- Do not want to estrange a large part of our existing user base. This implies making any porting of code straightforward (a challenge with the Py 2 to 3 port was that you had to read and think about the code you were porting; it was not just a matter of applying certain prescribed recipes).
+
+- Ensure that most users eventually land on skimage2. If, e.g., we provided a supported skimage1 and skimage2, there would be no incentive to transition.
+
+- Do not place an undue burden on maintainers. This would, e.g., preclude long term support of both skimage1 and skimage2.
+
+- Initially, allow users to use the old and the new APIs in conjunction (this should help greatly in porting code).
 
 ---
 
