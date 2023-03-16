@@ -12,6 +12,9 @@ ol { padding-left: 1rem; }
 .center-quote blockquote {
   margin-left: auto;
 }
+.center {
+  text-align: center;
+}
 
 </style>
 
@@ -41,12 +44,50 @@ Talk is 20 minutes.
 
 ...
 
-### What is `scikit-image`?
+## What is `scikit-image`?
+
+<div class="center">
+  <img src="images/skimage-logo.png" width="40%"/>
+</div>
 
 <div class="center-quote">
 
 > scikit-image is a collection of algorithms for image processing. It is available free of charge and free of restriction. We pride ourselves on high-quality, peer-reviewed code, written by an active community of volunteers.
 
+</div>
+
+Notes:
+
+- Also explan why it exists.
+
+...
+
+### But it does not stand alone!
+
+<div class="center">
+    <img src="images/ecosystem.svg" width="60%"/>
+</div>
+
+...
+
+### What is it used for?
+
+<div class="center">
+    <img src="images/banana.jpg" width="70%"/>
+</div>
+
+https://www.ethanrosenthal.com/2020/08/25/optimal-peanut-butter-and-banana-sandwiches/
+
+...
+
+<div class="center">
+    <img src="images/mothra_logo.png" width="10%"/>
+</div>
+<div class="center">
+    <img src="images/mothra_applied.jpg" width="60%"/>
+</div>
+<div style="font-size: 75%;">
+    https://www.britishecologicalsociety.org/natural-history-museums-digitised-collections-reveal-impact-of-climate-change-on-british-butterflies/
 </div>
 
 ...
@@ -194,6 +235,10 @@ Immediate goals:
 ## PyOpenSci
 
 Slide here.
+
+---
+
+<img src="images/team.jpg" width="60%"/>
 
 ---
 
