@@ -18,8 +18,10 @@ ol { padding-left: 1rem; }
 
 </style>
 
+<div class="center">
 <div style="font-size: 300%">scikit-image</div>
 <div style="font-size: 150%">From 0.20 to 2.0</div>
+</div>
 
 <br/>
 <br/>
@@ -41,10 +43,16 @@ on in your research.
 Talk is 20 minutes.
 
 -->
-
 ...
 
-## What is `scikit-image`?
+<div class="center">
+
+*Computed tomography in use on this lane* — sign at Reno-Tahoe airport
+
+<img src="images/tsa-ct-scanner.jpg"/>
+</div>
+
+...
 
 <div class="center">
   <img src="images/skimage-logo.png" width="40%"/>
@@ -58,36 +66,28 @@ Talk is 20 minutes.
 
 Notes:
 
-- Also explan why it exists.
-
-...
-
-### But it does not stand alone!
-
-<div class="center">
-    <img src="images/ecosystem.svg" width="60%"/>
-</div>
-
-...
-
-### What is it used for?
-
-<div class="center">
-    <img src="images/banana.jpg" width="70%"/>
-</div>
-
-https://www.ethanrosenthal.com/2020/08/25/optimal-peanut-butter-and-banana-sandwiches/
+- What is skimage?
+- Explain why it exists
+- The tool we would have wanted during PhD
 
 ...
 
 <div class="center">
-    <img src="images/mothra_logo.png" width="10%"/>
+
+<img src="images/tweet-spinning-coin.jpg" style="margin-bottom: -2rem; padding-bottom: 0;"/>
+
+https://twitter.com/hardmath123/status/1309217036925501441
+
 </div>
+
+...
+
 <div class="center">
-    <img src="images/mothra_applied.jpg" width="60%"/>
-</div>
-<div style="font-size: 75%;">
-    https://www.britishecologicalsociety.org/natural-history-museums-digitised-collections-reveal-impact-of-climate-change-on-british-butterflies/
+
+<img src="images/tweet-spinning-coin-2.jpg" width="560px"/>
+
+https://twitter.com/hardmath123/status/1309217036925501441
+
 </div>
 
 ...
@@ -100,7 +100,84 @@ https://www.ethanrosenthal.com/2020/08/25/optimal-peanut-butter-and-banana-sandw
 
 </div>
 
+Notes:
+
+Community driven open source is as much about the people as it is
+about the software.
+
 ...
+
+<img src="images/team.jpg" width="60%"/>
+
+...
+
+### The library is part of an ecosystem
+
+<div class="center">
+    <img src="images/ecosystem.svg" width="60%"/>
+</div>
+
+---
+
+## What is `skimage` used for?
+
+...
+
+<div class="center">
+    <img src="images/mothra_logo.png" width="120px"/>
+    <img src="images/machine-shop.png" width="140px" style="padding-left: 3rem;"/>
+</div>
+<div class="center">
+    <img src="images/mothra_applied.jpg" width="60%"/>
+</div>
+<div style="font-size: 75%;">
+    https://www.britishecologicalsociety.org/natural-history-museums-digitised-collections-reveal-impact-of-climate-change-on-british-butterflies/
+</div>
+
+...
+
+<div class="center">
+  <img src="images/material-paper.jpg"/>
+</div>
+
+...
+
+<div class="center">
+  <img src="images/material-labeled.jpg" width="58%"/>
+  <img class="fragment" src="images/material-column.jpg" width="40%" style="padding-left: 1rem;"/>
+</div>
+...
+
+<div style="display: flex; align-items: center;">
+
+<img src="images/material-dice.jpg" width="600px" style="float: left;"/>
+<div style="padding-left: 5rem;">
+  <img src="images/material-dice-poor.jpg"/>
+
+  Bizarrely, we neglected to cite <tt>numpy</tt> and <tt>scikit-image</tt> 🙈
+
+  <br/>
+  Got to pay attention to software citations!
+</div>
+</div>
+
+...
+
+`scikit-image` is also used in
+
+astronomy, microscopy, chemistry, physics, earth & climate science, medicine, remote sensing ...
+
+...
+
+### And then there's... this.
+
+<div class="center">
+    <img src="images/banana.jpg" width="70%"/>
+</div>
+
+https://www.ethanrosenthal.com/2020/08/25/optimal-peanut-butter-and-banana-sandwiches/
+
+---
 
 ## 0.20 — released!
 
@@ -113,7 +190,7 @@ https://www.ethanrosenthal.com/2020/08/25/optimal-peanut-butter-and-banana-sandw
 - More consistent API, including `channel_axis` for indicating multi-channel images
 - New build system: Meson
 
----
+...
 
 ## skimage 2.0
 
@@ -177,7 +254,7 @@ You can help:
 - Reward and recognize efforts outside of paper writing
 - Fund open, not closed software (and convince the NSF/NIH/... to do the
   same!)
-- Apply lessons from open source computationa research software to your work:
+- Apply lessons from open source computational research software to your work:
   1. Test research code
   2. Executable papers (AKA automate everything)
   3. Collaborate widely, credit all those involved
@@ -232,13 +309,24 @@ Immediate goals:
 
 ...
 
-## PyOpenSci
+## pyOpenSci.org
 
-Slide here.
+> pyOpenSci builds diverse community around scientific open source software through open peer review, training and mentorship
 
----
+**Open peer review of Python scientific software provides:**
 
-<img src="images/team.jpg" width="60%"/>
+- Increase discoverability of high quality, maintained tools
+- A supportive community for maintainers
+- Guidance on packaging best practices
+- Credit for developing software
+
+**Python packaging guidance**
+
+- [Packaging guide for modern packaging best practices](https://www.pyopensci.org/python-package-guide/)
+- [Forum for asking packaging questions](https://pyopensci.discourse.group/)
+- Tutorials & training on the above best practices
+
+**Build diverse community through mentorship & training**
 
 ---
 
@@ -246,9 +334,9 @@ Slide here.
 
 **https://scikit-image.org**
 
-Visit the **gallery**, **user forum**, or **developer forum**.
+Visit the [gallery](https://scikit-image.org/docs/stable/auto_examples/), **user forum**, or **developer forum**.
 
-https://forum.image.sc/tag/scikit-image ⬅ biology community, all tools
+https://forum.image.sc/tag/scikit-image ⬅ originated with biology community, all tools
 
 
 - **Email:** stefanv@berkeley.edu
