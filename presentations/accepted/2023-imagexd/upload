@@ -1,0 +1,9 @@
+if [[ $PWD == *gh-pages ]]; then
+  echo "Don't run this from within the gh-pages folder"
+  exit 1
+fi
+rsync -av --progress . gh-pages --exclude '*~' --exclude gh-pages --exclude .git --copy-links
+cd gh-pages
+git add --all
+git commit -m "Snapshot"
+git push origin gh-pages:gh-pages
