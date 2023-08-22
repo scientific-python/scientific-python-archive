@@ -17,7 +17,7 @@
 <br/>
 <br/>
 <div style="text-align: left;">
-K. Jarrod Millman<br/>
+K. Jarrod Millman & Stéfan van der Walt <br/>
 University of California, Berkeley
 </div>
 
@@ -392,6 +392,7 @@ Scientific Python Ecosystem Coordination documents provide operational guideline
 </br>
 
 - governance
+- theme
 - developer summits
 - sparse arrays
 - statistics
