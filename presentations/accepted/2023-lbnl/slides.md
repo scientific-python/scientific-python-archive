@@ -166,7 +166,6 @@ Scientific Python Ecosystem Coordination documents provide operational guideline
 
 - https://scientific-python.org/summits/developer/2023/
 - https://blog.scientific-python.org/scientific-python/dev-summit-1/
-- https://blog.scientific-python.org/scientific-python/dev-summit-1-sparse/
 
 
 ---
@@ -236,8 +235,6 @@ Scientific Python Ecosystem Coordination documents provide operational guideline
 
 
 
-</br>
-</br>
 
 ## Sparse Arrays for Scientiﬁc Python
 
@@ -247,9 +244,17 @@ Scientific Python Ecosystem Coordination documents provide operational guideline
 - deprecate SciPy’s sparse matrices and numpy.matrix
 - assist with sparse array adoption in downstream ecosystem packages
 
+</br>
+</br>
+</br>
+</br>
+
+### More information
 
 - https://scientific-python.org/grants/sparse_arrays/
 - https://scientific-python.org/summits/sparse/
+- https://scientific-python.org/calendars/
+- https://blog.scientific-python.org/scientific-python/dev-summit-1-sparse/
 
 ...
 
