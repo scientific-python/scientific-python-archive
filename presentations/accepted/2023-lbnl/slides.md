@@ -307,6 +307,98 @@ Scientific Python Ecosystem Coordination documents provide operational guideline
 
 <img src="images/youtube.png"/>
 
+---
+
+<!-- Section: SP project -->
+
+<div style="font-size: 300%; font-weight: 600;"> Scientific Python</div>
+<img alt="Scientific Python logo" src="images/scientific-python-logo.svg" width="100em"/>
+
+</br>
+</br>
+</br>
+</br>
+
+<div style="font-size: 150%; font-weight: 400;">And much, much more</div>
+
+...
+
+## Tools
+
+</br>
+
+<style>
+.container{
+    display: flex;
+}
+.col{
+    flex: 1;
+}
+</style>
+
+<div class="container">
+
+<div class="col">
+
+### Python packages
+
+- [lazy_loader](https://github.com/scientific-python/lazy_loader/)
+- [spin](https://github.com/scientific-python/spin)
+- [yaml2ics](https://github.com/scientific-python/yaml2ics)
+- [devstats](https://github.com/scientific-python/devstats)
+- [pytest-doctestplus](https://github.com/scientific-python/pytest-doctestplus)
+- [repo-review](https://github.com/scientific-python/repo-review)
+- [changelist](https://github.com/scientific-python/changelist/)
+</div>
+
+<div class="col">
+
+### Actions
+
+- [upload-nightly-action](https://github.com/scientific-python/upload-nightly-action)
+- [attach-next-milestone-action](https://github.com/scientific-python/attach-next-milestone-action)
+- [sync-teams-action](https://github.com/scientific-python/sync-teams-action)
+- [reverse-dependency-testing](https://github.com/scientific-python/reverse-dependency-testing)
+- [action-check-changelogfile](https://github.com/scientific-python/action-check-changelogfile)
+- [action-towncrier-changelog](https://github.com/scientific-python/action-towncrier-changelog)
+
+</br>
+</br>
+
+### Web theme
+
+- [scientific-python-hugo-theme](https://github.com/scientific-python/scientific-python-hugo-theme)
+
+</div>
+
+</div>
+
+...
+
+#### https://scientific-python.org/calendars/
+
+<img src="images/calendar.png"/>
+
+...
+
+#### https://devstats.scientific-python.org/
+
+<img src="images/devstats.png"/>
+
+...
+
+## Roadmap
+
+</br>
+
+- governance
+- developer summits
+- sparse arrays
+- statistics
+- domain stacks
+- summer school
+- strategic plan
+- coordinated releases
 
 ---
 
@@ -369,7 +461,9 @@ You are very welcome to join!
 
 Has links to:
 
-- Blog: https://blog.scientific-python.org
-- Twitter: https://twitter.com/scientific_py
-- YouTube: https://youtube.com/@scientific-python
 - Discourse: https://discuss.scientific-python.org
+- Development guide: https://learn.scientific-python.org/development/
+- Lectures: https://lectures.scientific-python.org/
+- Blog: https://blog.scientific-python.org
+- YouTube: https://youtube.com/@scientific-python
+- and more ...
