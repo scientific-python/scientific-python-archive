@@ -294,7 +294,7 @@ Scientific Python Ecosystem Coordination documents provide operational guideline
 
 #### https://blog.scientific-python.org/
 
-<img src="images/blog1.png" width="70%" />
+<img src="images/blog.png" width="70%" />
 
 ...
 
