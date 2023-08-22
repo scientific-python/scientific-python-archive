@@ -21,6 +21,21 @@ K. Jarrod Millman<br/>
 University of California, Berkeley
 </div>
 
+---
+
+<!-- Section: SP project -->
+
+
+<div style="font-size: 300%; font-weight: 600;"> Scientific Python</div>
+<img alt="Scientific Python logo" src="images/scientific-python-logo.svg" width="100em"/>
+
+</br>
+</br>
+</br>
+</br>
+
+<div style="font-size: 150%; font-weight: 400;">Background and introduction</div>
+
 ...
 
 <div style="font-size: 300%; font-weight: 600;"> Scientific Python is </div>
@@ -35,9 +50,6 @@ a **project** to better coordinate the ecosystem and grow the community
 
 ...
 
-## History
-
-<br/>
 
 ### 1990&ndash;2000
 
@@ -45,13 +57,11 @@ Python introduced. Matrix-SIG, numeric, and early adopters.
 
 ### 2000&ndash;2010
 
-Numarray/numeric/numpy/scipy and a growing ecosystem of tools
-driven by individual volunteer efforts and needs.
+Growing ecosystem of tools driven by individual volunteer
+efforts and needs.
 
 ### 2010&ndash;2020
 
-Individual projects adopt governance structures,
-development processes, and roadmaps.
 Wide-spread adoption of scientific Python ecosystem packages by
 academia and industry.
 
@@ -59,51 +69,21 @@ academia and industry.
 
 Use of scientific Python ecosystem is pervasive.
 It is being used in novel and leading science.
-It is continually improving, growing, responding to needs.
-
----
-
-<!-- Section: SP project -->
-
-
-<div style="font-size: 300%; font-weight: 600;"> Scientific Python</div>
-<img alt="Scientific Python logo" src="images/scientific-python-logo.svg" width="100em"/>
-
-</br>
-</br>
-</br>
-</br>
-
-<div style="font-size: 150%; font-weight: 400;">Introduction</div>
 
 ...
 
-## https://scientific-python.org/
+
+<div class="center">
+    <img src="images/ecosystem.svg" width="60%"/>
+</div>
+
+...
+
+#### https://scientific-python.org/
 
 
 <img src="images/home.png"/>
 
-...
-
-## Ecosystem Projects
-
-- **Science focused**
-
-  Tools used by students, researchers, and scientists for teaching and discovery that are openly shared with the public.
-
-- **Open source**
-
-  Distributed under unrestrictive open source licenses, projects are developed and maintained publicly and accessible to all.
-
-- **Community-driven**
-
-  Projects are developed by open communities composed primarily of the users of the software.
-
-...
-
-## Community Managers
-
-<img src="images/community-managers.png"/>
 
 ---
 
@@ -119,104 +99,209 @@ It is continually improving, growing, responding to needs.
 
 ...
 
-<img src="images/home-specs.png"/>
+#### https://scientific-python.org/specs/
 
-...
+</br>
+
+
+Scientific Python Ecosystem Coordination documents provide operational guidelines. 
+
+</br>
 
 <img src="images/spec-list.png"/>
 
 ...
 
+## SPEC Core Projects
+
 <img src="images/spec-core.png"/>
 
 ...
+
+## SPEC Steering Committee
 
 <img src="images/spec-committee.png"/>
 
 ...
 
+## SPEC 0 — Minimum Supported Versions 
+
+<img src="images/spec0.png"/>
+
+...
+
+## SPEC 1 — Lazy Loading of Submodules and Functions
+
+<img src="images/spec1.png"/>
+...
+
+## SPEC 4 — Using and Creating Nightly Wheels
+
+<img src="images/spec4.png"/>
+
+---
+
+<!-- Section: SP project -->
+
+<div style="font-size: 300%; font-weight: 600;"> Scientific Python</div>
+<img alt="Scientific Python logo" src="images/scientific-python-logo.svg" width="100em"/>
+
+</br>
+</br>
+
+
 <img src="images/home-summits.png"/>
 
 ...
 
-<img src="images/summits.png"/>
+## First Scientific Python Developer Summit
+
+<img src="images/devsummit-meeting1.png"/>
 
 ...
+
+## First Scientific Python Developer Summit
 
 <img src="images/checkin.jpg"/>
 
-...
+- https://scientific-python.org/summits/developer/2023/
+- https://blog.scientific-python.org/scientific-python/dev-summit-1/
+- https://blog.scientific-python.org/scientific-python/dev-summit-1-sparse/
+
+
+---
+
+<!-- Section: SP project -->
+
+<div style="font-size: 300%; font-weight: 600;"> Scientific Python</div>
+<img alt="Scientific Python logo" src="images/scientific-python-logo.svg" width="100em"/>
+
+</br>
+</br>
 
 <img src="images/home-development.png"/>
 
 ...
 
-## https://learn.scientific-python.org/development/
+#### https://learn.scientific-python.org/development/
 
 <img src="images/development.png"/>
 
 ...
 
-## https://learn.scientific-python.org/development/guides/repo-review/
+#### https://learn.scientific-python.org/development/guides/repo-review/
 
 <img src="images/repo-review.png"/>
 
-...
+---
+
+<!-- Section: SP project -->
+
+<div style="font-size: 300%; font-weight: 600;"> Scientific Python</div>
+<img alt="Scientific Python logo" src="images/scientific-python-logo.svg" width="100em"/>
+
+</br>
+</br>
 
 <img src="images/home-lectures.png"/>
 
 ...
 
-<img src="images/lectures.png"/>
+#### https://lectures.scientific-python.org/
+
+</br>
+</br>
+
+<img src="images/lectures-toc.png"/>
 
 ...
+
+#### https://lectures.scientific-python.org/
+
+<img src="images/lectures.png" width="90%" />
+
+---
+
+<!-- Section: SP project -->
+
+<div style="font-size: 300%; font-weight: 600;"> Scientific Python</div>
+<img alt="Scientific Python logo" src="images/scientific-python-logo.svg" width="100em"/>
+
+</br>
+</br>
 
 <img src="images/home-sparse.png"/>
 
 ...
 
-<img src="images/home-community.png"/>
 
+
+</br>
+</br>
+
+## Sparse Arrays for Scientiﬁc Python
+
+</br>
+
+- improve sparse structures in SciPy so they support array semantics
+- deprecate SciPy’s sparse matrices and numpy.matrix
+- assist with sparse array adoption in downstream ecosystem packages
+
+
+- https://scientific-python.org/grants/sparse_arrays/
+- https://scientific-python.org/summits/sparse/
 
 ...
 
-## Foster the next generation of contributors
+#### https://scipy.github.io/devdocs/reference/sparse.html 
 
-</br>
-</br>
+<img src="images/scipy-sparse.png"/>
 
+---
+
+<!-- Section: SP project -->
+
+<div style="font-size: 300%; font-weight: 600;"> Scientific Python</div>
 <img alt="Scientific Python logo" src="images/scientific-python-logo.svg" width="100em"/>
 
+</br>
+</br>
+
+<img src="images/home-community.png"/>
 ...
 
+#### https://github.com/scientific-python/
 
-## People
-
-<img src="images/community-managers.png" width="60%"/>
-
-\+ &nbsp; `  {accessiblity, spec, theme, blog, ...} teams`
-
+<img src="images/github.png"/>
 
 ...
 
-<img src="images/welcome-video.png" width="70%"/>
+#### https://discuss.scientific-python.org/
 
-- https://twitter.com/scientific_py
-- https://tinyurl.com/scientific-python-youtube
-
-
-Notes:
-
-  - Make it easy for new contributors to join the project
-  - Social media
-    - Onboarding
-    - Dev interviews
-    - SP library examples
-  - Learn: material for users, contributors, maintainers
-  - Blog: informal
-  - Discourse discussion forum
+<img src="images/discuss.png"/>
 
 ...
+
+#### https://discord.com/invite/vur45CbwMz
+
+
+</br>
+</br>
+
+<img src="images/discord.png"/>
+
+...
+
+#### https://blog.scientific-python.org/
+
+<img src="images/blog1.png" width="70%" />
+
+...
+
+#### https://www.youtube.com/@scientific-python
+
+<img src="images/youtube.png"/>
+
 
 ---
 
@@ -230,9 +315,7 @@ Notes:
 </br>
 </br>
 
-<div style="font-size: 150%; font-weight: 400;">What you can do</div>
-
-Notes:
+<div style="font-size: 150%; font-weight: 400;">Conclusion</div>
 
 ...
 
@@ -253,9 +336,6 @@ Notes:
 K. Jarrod Millman & Fernando Pérez<br/>
 https://www.jarrodmillman.com/oss-chapter.html
 
-...
-
-<img src="images/abernathey-scientific-paper-outdated.png" width="100%"/>
 
 ...
 
@@ -270,6 +350,12 @@ You are very welcome to join!
 
 ...
 
+#### https://scientific-python.org/grants/
+
+<img src="images/grants.png"/>
+
+...
+
 ### Learn more
 
 #### Website: https://scientific-python.org
@@ -280,5 +366,5 @@ Has links to:
 
 - Blog: https://blog.scientific-python.org
 - Twitter: https://twitter.com/scientific_py
-- YouTube: https://tinyurl.com/scientific-python-youtube
+- YouTube: https://youtube.com/@scientific-python
 - Discourse: https://discuss.scientific-python.org
