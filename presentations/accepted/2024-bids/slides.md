@@ -81,9 +81,10 @@ Notes:
 
 Notes:
 
-- Around 2005, first course on campus, and probably *the* earliest course on
-  campus, was in Tollman Hall by Fernando and John.
-  Dav Clark, who later was a BIDS fellow, came up from Stanford for the workshop.
+- Around 2005, first course on campus, and probably *one of the* earliest
+  courses anywhere, was given in Tolman Hall by Fernando and John.
+  Dav Clark, who later was a BIDS fellow, came up from Stanford for the
+  workshop.
 
 - Ben Herbst, Stéfan's PhD advisor, visits Colorado on sabbatical.  He
   comes back and, inspired by Fernando, is enthused about a new
