@@ -28,19 +28,14 @@ BIDS Seminar, 7 May 2024
 
 Notes:
 
-- I won't spend too much time introducing myself right now; you'll
-  learn more about my, and others' in the meeting's role here at
-  Berkeley throughout the talk.
 - I promised to tell you about the Scientific Python project.
   And, I'm excited to do so.
-- But I've decided to first give you more of a personal overview of
-  how this came to be.
+- But I thought it might be interesting to give you more of a
+  behind-the-scenes, personal overview of how this came to be.
+- I want to tell you about the major role Berkeley & BIDS has
+  played, and its long history in this space.
 - My memory is obviously incomplete and subjective, but the general
   gist is there.
-- Specifically, I want to tell you how Fernando, Jarrod, and I started
-  what has become my longest-running collaboration, and how the vision
-  we had for scientific computing in Python has evolved and become a
-  reality.
 
 ---
 
