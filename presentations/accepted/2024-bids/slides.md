@@ -86,8 +86,8 @@ Notes:
 
 Notes:
 
-- First course on campus, and probably *the* earliest course on campus, was in Tollman Hall
-  by Fernando and John.
+- Around 2005, first course on campus, and probably *the* earliest course on
+  campus, was in Tollman Hall by Fernando and John.
   Dav Clark, who later was a BIDS fellow, came up from Stanford for the workshop.
 
 - Ben Herbst, Stéfan's PhD advisor, visits Colorado on sabbatical.  He
@@ -114,12 +114,12 @@ Notes:
 Notes:
 
 - In 2008, Fernando is appointed at the Brain Imaging Center, where he works closely with Jarrod.
-- Around 2010, Jarrod organizes SciPy India. Stéfan meets him there, and they start working on the proceedings for 
-  the US SciPy conference.
+- Around 2010, Jarrod co-organizes SciPy India. Stéfan meets him there, and
+  they start working on the proceedings for the US SciPy conference.
 - Josh Bloom, Professor in Astronomy, teaches an annual Python
   bootcamp and the AY250 course, through which he helps to establish Python in astronomy.
 - Fast forward to 2015, I join the newly formed Berkeley Institute for Data Science.
-- The Data Science Major is launched, with a curriculum in Python.
+- Around the same time, the Data Science curriculum is launched, built around Python.
 
 ...
 
