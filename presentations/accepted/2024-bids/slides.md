@@ -68,7 +68,7 @@ Notes:
 
 Notes:
 
-- Jarrod became motivated to replace your imaging library with Python.
+- Jarrod became motivated to replace the complicate image analysis pipeline with Python.
   Keith Worseley was a big figure in neuroscience; through him, Jarrod was introduced to Jonathan Taylor, a young upcoming statistician, now a Professor at Stanford.
    Googling "Python, imaging, neuroscience", Jarrod came across John Hunter, doing Electrocorticography (ECoG) at the Children's Hospital in Chicago.
   They had a MATLAB pipeline, and he wanted to replace it in Python.
