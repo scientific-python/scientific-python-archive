@@ -28,199 +28,136 @@ BIDS Seminar, 7 May 2024
 
 Notes:
 
-- Introduce yourself
-- Before I joined BIDS I was a lecturer in Applied Mathematics in SA
-- Joined BIDS in 2015
-- It's been almost a decade, and what is fantastic about my job is that I
-  get to work on different research problems every year
-- I also get to follow my passion: developing open source scientific software
-  - there are not very many positions in the world that allow that
+- I won't spend too much time introducing myself right now; you'll
+  learn more about my, and others' in the meeting's role here at
+  Berkeley throughout the talk.
+- I promised to tell you about the Scientific Python project.
+  And, I'm excited to do so.
+- But I've decided to first give you more of a personal overview of
+  how this came to be.
+- My memory is obviously incomplete and subjective, but the general
+  gist is there.
+- Specifically, I want to tell you how Fernando, Jarrod, and I started
+  what has become my longest-running collaboration, and how the vision
+  we had for scientific computing in Python has evolved and become a
+  reality.
 
 ---
 
-## The scientific Python ecosystem
+## A view from Berkeley
 
-### Origins
-
-Most research computing is done with commercial software.
+### The characters (2000–2004)
 
 Notes:
 
-- In early 2000s, status quo is that most science is done with closed, commercial software.
+- Fernando Pérez is a grad student in physics at CU Boulder.  He's
+  working on wavelet analysis in Mathematica, and is interested in a
+  new langauge called Python, which lacks symbolic and numerical
+  computation facilities.
 
-  - MATLAB, Mathematica, and Maple
+- Jarrod Millman works at the Brain Imaging Center, supporting their analysis pipeline.
+  Crazy mixture of MATLAB, IDL, AWK, Bash, and C.
 
-  - People use what their colleagues use for interoperability.
-
-  - There are early examples of freely distributed software from early
-    on
-    - Some researchers used Fortran
-    - And there were packages: SPICE, Fortran libraries like Netlib LAPACK, MINPACK, EISPACK,
-      Berkeley Software Distribution, and later R, GNU Octave, etc.
-    - But when I arrived on the scene, commercial software was common and firmly established
+- Stéfan is grad student in Applied Mathematics in South Africa.
+  Frustrated by a lack of workable MATLAB installation and license server issues,
+  he is using and working on GNU Octave.
 
 ...
 
-### Origins
-
-Scientists notice Python.
+### A Spark At Berkeley
 
 Notes:
 
-- Mid-90s: scientists started noticing Python.
+- Jarrod became motivated to replace your imaging library with Python.
+  Keith Worseley was a big figure in neuroscience; through him, Jarrod was introduced to Jonathan Taylor, a young upcoming statistician, now a Professor at Stanford.
+   Googling "Python, imaging, neuroscience", Jarrod came across John Hunter, doing Electrocorticography (ECoG) at the Children's Hospital in Chicago.
+  They had a MATLAB pipeline, and he wanted to replace it in Python.
+  For that purpose, John started a project called Matplotlib.
+  John introduced Jarrod to Fernando.
 
-  - Numeric written by Jim Fulton and generalized by Jim Hugunin.
-
-- Astronomy becomes interested, writes Numarray to handle large images.
-
-- Hardware control:
-  - Hard to get new firmware, or long wait times for companies to fix bugs.
-  - Can write control interfaces in low-level language.
-  - But control is much easier in high-level langauge.
-  - Now that you are controlling hardware from Python, can you process it there as well?
-    Can you upload results to a database, or generate reports directly?
-    - Power of a general-purpose language becomes obvious.
+- At that point, two array libraries, Numeric and Numarray, existed, splitting the community.
+  Jarrod and Matthew Brett, who was a visiting research at the time, organized a few meetings
+  that brought Travis Oliphant, Numeric maintainer, and Perry Greenfield, numarray maintainer, to campus.
+  During this meetings, Travis and Perry figured out how to unify their projects, resulting in what we now know as NumPy.
 
 ...
 
-### Origins
-
-Practical motivations arise.
+### Teaching "Scientific Python"
 
 Notes:
 
-- Practical motivations for finding a new, unrestricted computational platform.
-  - License servers are a pain.
-  - Students learn a language, but often cannot afford software once they leave university.
-  - Specialized languages mean users have to learn multiple languages.
-  - Cannot share research with collaborators without software license, or who use different software packages.
+- First course on campus, and probably *the* earliest course on campus, was in Tollman Hall
+  by Fernando and John.
+  Dav Clark, who later was a BIDS fellow, came up from Stanford for the workshop.
+
+- Ben Herbst, Stéfan's PhD advisor, visits Colorado on sabbatical.  He
+  comes back and, inspired by Fernando, is enthused about a new
+  language called Python. He wants me and Fernando to meet.
+
+- Soon after, in 2006, Fernando travels to South Africa and teaches a
+  "Py4Science" workshop in Stellenbosch, with Stéfan stepping in to help.
 
 ...
 
-### Origins
-
-<div class="inline-left">
-
-Philosophical motivations align.
-
-- Transparency for validation
-- Insight
-- Control
-</div>
+### NumPy documentation project
 
 Notes:
 
-- From a philosophical viewpoint, there were problems with the status quo.
-
-  - Science requires transparency: you must be able to *check* that your, and others', results are correct.
-  - Scientists need to understand their tools to use them properly.
-  - Ideally, scientists are able to *modify* tools to best fit their purpose.
+- In 2007, Joe Harrington wanted to hire someone to document NumPy and SciPy, which he wanted to use in his courses.
+- Fernando and Jarrod phoned me up, and with support from my advisor, I ran the "Documentation Marathon".
+  With the community, we built a Wikipedia-like system, and over two years took NumPy and SciPy from virtually no documentation to being fully documented.
 
 ...
 
-### Modifying your tools (a short detour)
-
-<div class="center">
-<img src="images/reprap.jpg"/>
-</div>
+### Scientific Python @ Berkeley
 
 Notes:
 
-- Got 3D printer as a gift
-- A paradigm shift; no longer go to Ace and jury rig a part
-- If you want to make a custom part or tool, you need to understand the problem very well
-- But once you do, you can make the tool that *exactly* matches what you need
-- For home improvement that doesn't matter so much; for science it is very important.
+- In 2008, Fernando is appointed at the Brain Imaging Center, where he works closely with Jarrod.
+- Around 2010, Jarrod organizes SciPy India. Stéfan meets him there, and they start working on the proceedings for 
+  the US SciPy conference.
+- Josh Bloom, Professor in Astronomy, teaches an annual Python
+  bootcamp and the AY250 course, through which he helps to establish Python in astronomy.
+- Fast forward to 2015, I join the newly formed Berkeley Institute for Data Science.
+- The Data Science Major is launched, with a curriculum in Python.
 
 ...
 
-### Origins
-
-<div class="inline-left">
-The philosophical considerations require software that is:
-
-- Free (money, and right to modify).
-- Developed openly.
-- Is owned (controlled) by the research community.
-</div>
-
-This way, we build a *commons*.
-
-...
-
-### Origins
-
-An early ecosystem coalesces.
+### The NumPy Grant
 
 Notes:
 
-- NumPy evolves from Numeric & NumArray.
-- SciPy, IPython (precursor of Jupyter), and Matplotlib are developed.
-  - Algorithms + interface + visualization.
-- Albeit brittle and incomplete computational platform: an ecosystem.
-
-<!-- Section: SP project -->
-
-...
-
-### Origins
-
-A community forms.
-
-Notes:
-
-- Developing these packages were *fun* and *exploratory*;
-  we were imagining what these tools and the ecosystem could be.
-- A small community of researcher-developers formed, including many students.
-  They were very enthusiastic about their new toys!
-- Many meet at the annual SciPy conference, and spoke about the
-  direction development should take.
-- At this point in time, it's very much an aspirational project.
+- Around 2017, at BIDS we start executing the first ever grants for NumPy, by the Moore & Sloan Foundations
+- We bring key ecosystem developers to campus
+- One of the challenges we discuss is that:
+  - The projects got big, and developers could no longer sit around a table
+  - The ecosystem grew organically, and many projects were siloed
+  - There was little unity, or careful cross-project design
+  - Tools were sometimes borrowed between projects, but then took on a life of their own inside each project
+  - Because of their success, there were many more users to support, but no framework within which to do that
+  - Industry became much more interested in the ecosystem; what did this mean for the ecosystem developers,
+    and how would the community remain involved in steering their projects?
+- We therefore started thinking about ways to bring the community together again
+  - Discuss strategy
+  - Improve uniformity
+  - Share technical infrastructure and tools
+  - Ensure that projects are community governed and owned
 
 ...
-
-### Fast forward 10 years...
-
----
-
-### The Data Science Revolution
-
-Computational tools become a core research dependency.
-
-Notes:
-
-- Around 2015 or so, Data Science became A Big Deal.
-- I still don't have a precise definition of data science, but the
-  phenomenon arose out of some mixture of high data availability, an
-  increase in computational ability, and machine learning making it
-  possible to gain insights from large datasets.
-- What is clear is that most fields have or are moving deeper into
-  computational science.
-- From the beginning, Data Science bought into the idea of open source tool-chains.
-  - Perhaps this is due to decades of advocacy for open and reproducible science,
-  - perhaps it was due to the ML community having bought into Python,
-  - or perhaps it is simply pragmatic, given that R and Python were well known, mature, and free.
-- The new-found need for computational tools greatly increased the number of users of our tools.
-
-...
-
-### Fast forward another 5 years...
-
----
 
 ### The Scientific Python Project
 
-#### Founding
+- July 2018 -- New landing site for Scientific Python ([issue #1](https://github.com/scientific-python/scientific-python.org/issues/1))
+- December 2018 -- Chris Mentzel (then Moore Foundation) asks for a short proposal
+- January 2019 -- first draft
+- June 2020 -- funding approved
+- December 2020 -- Jarrod and I officially start The Scientific Python Project
 
 Notes:
 
-- Our tools are now widely adopted.
-- The SciPy conference has grown from eighty participants to a thousand participants.
-- Developers no longer meet around a table to discuss the future.
-- Maintainers are overloaded, supporting many more users than before, with little additional help.
-- In response to these challenges, we create The Scientific Python project.
+- Now, let me tell you about that project, and the work we've done since 2020.
 
-...
+---
 
 ### Scientific Python is...
 
@@ -236,13 +173,9 @@ a **project** to better coordinate the **ecosystem** and support the community o
 
 #### https://scientific-python.org/
 
-
 <img src="images/home.png" width="80%"/>
 
-
 ---
-
-<!-- Section: SP project -->
 
 <div style="font-size: 300%; font-weight: 600;"> Scientific Python</div>
 <img alt="Scientific Python logo" src="images/scientific-python-logo.svg" width="100em"/>
@@ -261,7 +194,6 @@ Notes:
 #### https://scientific-python.org/specs/
 
 </br>
-
 
 Scientific Python Ecosystem Coordination documents provide operational guidelines. 
 
@@ -388,9 +320,6 @@ Notes:
 
 ...
 
-
-
-
 ## Sparse Arrays for Scientiﬁc Python
 
 </br>
@@ -413,7 +342,7 @@ Notes:
 
 ...
 
-#### https://scipy.github.io/devdocs/reference/sparse.html 
+#### https://scipy.github.io/devdocs/reference/sparse.html
 
 <img src="images/scipy-sparse.png"/>
 
@@ -683,5 +612,20 @@ Notes:
 
 </div>
 
+...
+
+### Modifying your tools (a short detour)
+
+<div class="center">
+<img src="images/reprap.jpg"/>
+</div>
+
+Notes:
+
+- Got 3D printer as a gift
+- A paradigm shift; no longer go to Ace and jury rig a part
+- If you want to make a custom part or tool, you need to understand the problem very well
+- But once you do, you can make the tool that *exactly* matches what you need
+- For home improvement that doesn't matter so much; for science it is very important.
 
 ---
