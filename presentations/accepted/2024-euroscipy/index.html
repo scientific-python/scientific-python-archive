@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>The Scientific Python Project</title>
+
+    <link rel="stylesheet" href="reveal.js/dist/reveal.css">
+    <link rel="stylesheet" href="reveal.js/dist/theme/white.css" id="theme">
+
+    <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,900">
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+    <style type="text/css">
+     :root {
+       --r-heading-font: "Lato";
+       --r-main-font: "Lato";
+       --r-main-font-size: 24px;
+     }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!-- Use external markdown resource, separate slides by three newlines; vertical slides by two newlines -->
+        <section data-markdown="slides.md" data-separator-vertical="^\.\.\.$"/>
+      </div>
+    </div>
+
+    <script src="reveal.js/dist/reveal.js"></script>
+    <script src="reveal.js/plugin/markdown/markdown.js"></script>
+    <script src="reveal.js/plugin/highlight/highlight.js"></script>
+    <script src="reveal.js/plugin/notes/notes.js"></script>
+    <script src="reveal.js/plugin/math/math.js"></script>
+
+    <script>
+
+     Reveal.initialize({
+       transition: 'none',
+       controls: true,
+       progress: true,
+       history: true,
+       center: true,
+
+       plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
+     });
+
+    </script>
+
+  </body>
+</html>
