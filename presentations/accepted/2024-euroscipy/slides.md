@@ -12,7 +12,7 @@
 </style>
 
 
-<div style="font-size: 150%; font-weight: 600;">Scientific Python:<br/> In support of the community of developers</div>
+<div style="font-size: 150%; font-weight: 600;">Scientific Python:<br/> In support of the developer community</div>
 
 <img alt="Scientific Python logo" src="images/scientific-python-logo.svg" width="200em"/>
 
@@ -109,7 +109,7 @@ Scientific Python Ecosystem Coordination documents provide operational guideline
 
 ## SPEC 0 — Minimum Supported Versions
 
-<img src="images/spec0.png" width="70%"/>
+<img src="images/spec0.png"/>
 
 ...
 
@@ -151,8 +151,7 @@ Scientific Python Ecosystem Coordination documents provide operational guideline
 
 ## Second Scientific Python Developer Summit
 
-Planning meeting:<br/>
-<img src="images/checkin.webp" width="60%">
+<img src="images/seattle-2024.jpg" width="60%">
 
 - Seattle, June 3–5:<br/>https://scientific-python.org/summits/developer/2024/
 - Report from last year:<br/>https://blog.scientific-python.org/scientific-python/dev-summit-1/
@@ -183,7 +182,7 @@ Notes:
 
 #### https://learn.scientific-python.org/development/guides/repo-review/
 
-<img src="images/repo-review.png"/>
+<img src="images/repo-review.png" width="75%"/>
 
 ---
 
@@ -229,7 +228,7 @@ Notes:
 </br>
 
 - improve sparse structures in SciPy so they support array semantics
-- deprecate SciPy’s sparse matrices and `numpy.matrix`
+- deprecate SciPy’s sparse matrices and, eventually, `numpy.matrix`
 - assist with sparse array adoption in downstream ecosystem packages
 
 </br>
@@ -254,13 +253,19 @@ Notes:
 
 ## CZI grant
 
+<img src="images/czi-grant-announce.png" style="border: 1px solid;" width="70%"/>
+
 - In collaboration with Quansight
 - Accessibility
   - https://pydata-sphinx-theme.readthedocs.io/en/stable/
 - Translation
   - https://blog.scientific-python.org/scientific-python/translations/
   - https://scientific-python-translations.github.io/
-- Other things we're working on as part of the grant
+- Scientific Python Hugo theme
+- DevStats
+- interactive docs
+  (building on work by Pyodide & JupyterLite teams)
+- Release management / tooling
 
 ---
 
@@ -278,15 +283,14 @@ Notes:
 
 #### https://discuss.scientific-python.org/
 
-<img src="images/discuss.png"/>
+<img src="images/discuss.png" width="60%"/>
 
 ...
 
-#### https://discord.com/invite/vur45CbwMz
+#### https://bit.ly/talk-sp
 
-
-</br>
-</br>
+<img src="images/discord-qr.png" width="15%"/>
+<br/>
 
 <img src="images/discord.png"/>
 
